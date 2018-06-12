@@ -209,4 +209,4 @@ kongrongqi_shop_android/local.properties
 PushSDK/build/
 build/android-profile/
 build/intermediates/
-kongrongqiShop.jks
+test.jks
