@@ -7,7 +7,7 @@ android {
     signingConfigs {
         releaseConfig {
             try {
-                storeFile file('F:/test_android/test.jks')
+                storeFile file('E:/IdeaProjects/WCM/test.jks')
                 storePassword KEYSTORE_PASSWORD
                 keyAlias 'kongrongqi'
                 keyPassword KEY_PASSWORD
@@ -18,7 +18,7 @@ android {
         }
         debugconfig {
             try {
-                storeFile file('F:/kongrongqi_shop_android/test.jks')
+                storeFile file('E:/IdeaProjects/WCM/test.jks')
                 storePassword KEYSTORE_PASSWORD
                 keyAlias 'kongrongqi'
                 keyPassword KEY_PASSWORD

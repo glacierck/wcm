@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="socialsdk-0.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/cfcacb9103ce1eb1bab683a2a0e759676444e7ab/output/jars/libs/open_sdk_r5509_lite.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/cfcacb9103ce1eb1bab683a2a0e759676444e7ab/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/cfcacb9103ce1eb1bab683a2a0e759676444e7ab/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/cfcacb9103ce1eb1bab683a2a0e759676444e7ab/output/jars/libs/libammsdk.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/cfcacb9103ce1eb1bab683a2a0e759676444e7ab/output/jars/libs/weiboSDKCore_3.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/cfcacb9103ce1eb1bab683a2a0e759676444e7ab/output/jars/libs/otto-1.3.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.elbbbird.android/socialsdk/0.2.0/713ddf4510fac15eecec2e241cbe86f8cc59a296/socialsdk-0.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

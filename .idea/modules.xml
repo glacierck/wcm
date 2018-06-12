@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DIS.iml" filepath="$PROJECT_DIR$/DIS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonFrame/CommonFrame.iml" filepath="$PROJECT_DIR$/CommonFrame/CommonFrame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenSourceLibrary/OpenSourceLibrary.iml" filepath="$PROJECT_DIR$/OpenSourceLibrary/OpenSourceLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PushSDK/PushSDK.iml" filepath="$PROJECT_DIR$/PushSDK/PushSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WCM.iml" filepath="$PROJECT_DIR$/WCM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pickerview/pickerview.iml" filepath="$PROJECT_DIR$/pickerview/pickerview.iml" />
     </modules>
   </component>
 </project>

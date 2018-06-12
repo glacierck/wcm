@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="penny-codec">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/penny-codec.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
