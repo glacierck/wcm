@@ -7,9 +7,9 @@ android {
     signingConfigs {
         releaseConfig {
             try {
-                storeFile file('E:/IdeaProjects/WCM/test.jks')
+                storeFile file('E:/IdeaProjects/WCM/test2.jks')
                 storePassword KEYSTORE_PASSWORD
-                keyAlias 'test'
+                keyAlias 'test2'
                 keyPassword KEY_PASSWORD
             }
             catch (ex) {
@@ -18,9 +18,9 @@ android {
         }
         debugconfig {
             try {
-                storeFile file('E:/IdeaProjects/WCM/test.jks')
+                storeFile file('E:/IdeaProjects/WCM/test2.jks')
                 storePassword KEYSTORE_PASSWORD
-                keyAlias 'test'
+                keyAlias 'test2'
                 keyPassword KEY_PASSWORD
             }
             catch (ex) {
@@ -49,8 +49,8 @@ android {
         applicationId "com.kongrongqi.shopmall"
         minSdkVersion 16
         targetSdkVersion 25
-        versionCode 41
-        versionName "1.4.1"
+        versionCode 1
+        versionName "1.0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
