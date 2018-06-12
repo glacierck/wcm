@@ -9,7 +9,7 @@ android {
             try {
                 storeFile file('E:/IdeaProjects/WCM/test.jks')
                 storePassword KEYSTORE_PASSWORD
-                keyAlias 'kongrongqi'
+                keyAlias 'test'
                 keyPassword KEY_PASSWORD
             }
             catch (ex) {
@@ -20,7 +20,7 @@ android {
             try {
                 storeFile file('E:/IdeaProjects/WCM/test.jks')
                 storePassword KEYSTORE_PASSWORD
-                keyAlias 'kongrongqi'
+                keyAlias 'test'
                 keyPassword KEY_PASSWORD
             }
             catch (ex) {
