@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cl_ffffffff"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/me_bj_list"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cl_ffffffff"
+        android:orientation="vertical"
+        android:paddingBottom="50px"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:paddingTop="50px">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/wroking_service_name"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:text="@string/service_type"
+                android:textColor="@color/service_font"
+                android:textSize="30px"
+                android:textStyle="bold" />
+
+            <!--<com.kongrongqi.shopmall.wedget.progressBar.TextRoundCornerProgressBar-->
+            <!--android:id="@+id/working_item_schduler"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="35px"-->
+            <!--android:layout_weight="2"-->
+            <!--android:textStyle="bold"-->
+            <!--app:rcBackgroundColor="@color/cl_4dbfbfbf"-->
+            <!--app:rcBackgroundPadding="2px"-->
+            <!--app:rcMax="15"-->
+            <!--app:rcProgress="5"-->
+            <!--app:rcProgressColor="@color/cl_7895F3"-->
+            <!--app:rcReverse="false"-->
+            <!--app:rcTextProgressColor="@color/service_font"-->
+            <!--app:rcTextProgressSize="30px" />-->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2">
+                <!--<com.frame.commonframe.progressbar.FlikerProgressBar-->
+                <!--android:id="@+id/working_item_schduler"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="35px"-->
+                <!--app:textSize="30px"-->
+                <!--app:radius="10dp"-->
+                <!--app:borderBackColor="@color/me_font"-->
+                <!--app:progressColor="@color/progress_default"-->
+                <!--app:borderWidth="1px"-->
+                <!--app:progressTextColor="@color/service_font"/>-->
+
+
+                <include layout="@layout/text_progress_layout" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/working_devices"
+                    style="@style/ServiceText"
+                    android:text="@string/working_devices" />
+
+                <TextView
+                    android:id="@+id/working_account"
+                    style="@style/ServiceText"
+                    android:text="@string/account_nickname" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/right_restart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/bt_right_restart"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="160px"
+                        android:layout_height="60px"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/select_logout_button_bg"
+                        android:text="重启"
+                        android:textColor="@color/cl_ffffffff"
+                        android:textSize="26px" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/working_data"
+                    style="@style/ServiceText"
+                    android:text="@string/working_devices"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/working_account_error"
+                    style="@style/ServiceText"
+                    android:text="@string/account_nickname"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/working_devices"-->
+        <!--style="@style/ServiceText"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="3"-->
+        <!--android:text="@string/working_devices" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/working_data"-->
+        <!--style="@style/ServiceText"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="2"-->
+        <!--android:text="@string/fans_data"-->
+        <!--android:visibility="invisible" />-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/working_account"-->
+        <!--style="@style/ServiceText"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="3"-->
+        <!--android:text="@string/account_nickname" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/working_account_error"-->
+        <!--style="@style/ServiceText"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="2"-->
+        <!--android:text="@string/account_error" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/item"-->
+        <!--android:layout_marginTop="50px"-->
+        <!--android:layout_marginBottom="50px"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="30px"-->
+        <!--android:layout_marginRight="30px"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="3"-->
+        <!--android:layout_height="match_parent"-->
+
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/wroking_service_name"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/service_type"-->
+        <!--android:textColor="@color/service_font"-->
+        <!--android:textSize="30px"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/working_devices"-->
+        <!--style="@style/ServiceText"-->
+        <!--android:layout_marginTop="30px"-->
+        <!--android:text="@string/working_devices" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/working_account"-->
+        <!--style="@style/ServiceText"-->
+        <!--android:text="@string/account_nickname" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="2"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<com.kongrongqi.shopmall.wedget.progressBar.TextRoundCornerProgressBar-->
+        <!--android:id="@+id/working_item_schduler"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="35px"-->
+        <!--android:textStyle="bold"-->
+        <!--app:rcBackgroundPadding="2px"-->
+        <!--app:rcBackgroundColor="@color/cl_4dbfbfbf"-->
+        <!--app:rcMax="15"-->
+        <!--app:rcProgress="5"-->
+        <!--app:rcProgressColor="@color/cl_7895F3"-->
+        <!--app:rcReverse="false"-->
+        <!--app:rcTextProgressSize="30px"-->
+        <!--app:rcTextProgressColor="@color/service_font"/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/working_data"-->
+        <!--style="@style/ServiceText"-->
+        <!--android:text="@string/fans_data"-->
+        <!--android:visibility="invisible" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/working_account_error"-->
+        <!--style="@style/ServiceText"-->
+        <!--android:autoLink="all"-->
+        <!--android:text="@string/account_error" />-->
+        <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/cl_ffffffff"
+        android:layout_marginTop="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_weight="2"
+                android:text="IMEI码：" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="00000000000000" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+
+                <Button
+                    android:id="@+id/replace"
+                    android:layout_width="160px"
+                    android:layout_height="60px"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/select_logout_button_bg"
+                    android:text="替换"
+                    android:textColor="@color/cl_ffffffff" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_weight="2"
+                android:text="帐号1：" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="尚未添加" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="审核未通过"
+                    android:textColor="@color/logout_bt_bj"/>
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+
+                <Button
+                    android:id="@+id/addAccount"
+                    android:layout_width="160px"
+                    android:layout_height="60px"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/select_logout_button_bg"
+                    android:text="添加帐号"
+                    android:textColor="@color/cl_ffffffff" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_weight="2"
+                android:text="帐号2：" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="尚未购买（1500元）" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+
+                <Button
+                    android:id="@+id/buySlot"
+                    android:layout_width="160px"
+                    android:layout_height="60px"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/select_logout_button_bg"
+                    android:text="购买号槽"
+                    android:textColor="@color/cl_ffffffff" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_weight="2"
+                android:text="帐号3：" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="尚未添加" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="服务空闲"
+                    android:textColor="@color/logout_bt_bj"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+
+                <Button
+                    android:id="@+id/buySlot2"
+                    android:layout_width="160px"
+                    android:layout_height="60px"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/select_logout_button_bg"
+                    android:text="使用服务"
+                    android:textColor="@color/cl_ffffffff" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_weight="2"
+                android:text="帐号4：" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="尚未购买（1500元）" />
+
+            <!--android:background="@drawable/select_account_hc_bg"-->
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+
+                <Button
+                    android:id="@+id/buySlot3"
+                    android:layout_width="160px"
+                    android:layout_height="60px"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/select_logout_button_bg"
+                    android:text="查看详情"
+                    android:textColor="@color/cl_ffffffff" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_link"
+        android:layout_marginTop="@dimen/dd_dimen_160px"
+        android:gravity="center"
+        android:textColor="@color/logout_bt_bj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当设备的帐号已满，请点击我购买新服务"/>
+
+
+</LinearLayout>

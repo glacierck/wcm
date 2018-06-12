@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_bj"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/in_1"
+        layout="@layout/tool" />
+
+
+    <!---->
+    <TextView
+        android:id="@+id/pay_tv_address"
+        android:layout_width="match_parent"
+        android:layout_height="82px"
+        android:layout_below="@id/in_1"
+        android:layout_marginLeft="30px"
+        android:gravity="center_vertical"
+        android:text="@string/receive_address_1"
+        android:textColor="@color/service_font"
+        android:textSize="26px"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_3"
+        android:layout_width="match_parent"
+        android:layout_height="125px"
+        android:layout_below="@+id/pay_tv_address"
+        android:background="@color/cl_ffffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/pay_service_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="31px"
+            android:layout_marginRight="31px"
+            android:drawableRight="@drawable/more"
+            android:gravity="center_vertical"
+            android:hint="@string/receive_address"
+            android:textColor="@color/service_font"
+            android:textColorHint="@color/service_font"
+            android:textSize="30px" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_pay"
+        android:layout_width="match_parent"
+        android:layout_height="82px"
+        android:layout_below="@id/ll_3"
+        android:layout_marginLeft="30px"
+        android:gravity="center_vertical"
+        android:text="@string/you_buy_service"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_pay"
+        android:background="@color/cl_ffffffff"
+        android:gravity="center_vertical"
+        android:minHeight="125px"
+        android:orientation="horizontal">
+
+        <ViewStub
+            android:id="@+id/viewStub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="match_parent"
+        android:layout_height="82px"
+        android:layout_below="@+id/ll_1"
+        android:layout_marginLeft="30px"
+        android:gravity="center_vertical"
+        android:text="@string/choose_service"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:layout_width="match_parent"
+        android:layout_height="125px"
+        android:layout_below="@+id/tv_type"
+        android:background="@color/cl_ffffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30px"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/alipay"
+            android:textColor="@color/service_font"
+            android:textSize="30px" />
+
+        <com.kongrongqi.shopmall.wedget.SmoothCheckBox
+            android:id="@+id/ali_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="31px"
+            android:gravity="center_vertical"
+            app:color_checked="@color/login_button_bj"
+            app:color_unchecked="@color/cl_ffffffff"
+            app:stroke_width="1px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:layout_below="@+id/ll_2"
+        android:layout_marginTop="2px"
+        android:background="@color/cl_ffffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30px"
+            android:gravity="center_vertical"
+            android:text="@string/wechat"
+            android:textSize="17sp" />
+
+        <com.kongrongqi.shopmall.wedget.SmoothCheckBox
+            android:id="@+id/we_chat_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="400px"
+            android:gravity="center_vertical"
+            app:color_checked="@color/login_button_bj"
+            app:color_unchecked="@color/cl_ffffffff"
+            app:stroke_width="1px" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/cl_ffffffff">
+
+        <Button
+            android:id="@+id/pay_pay"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="241px"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/select_pay_button_bg"
+            android:text="@string/ok_pay"
+            android:textColor="@color/cl_ffffffff"
+            android:textSize="30px"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30px">
+
+            <TextView
+                android:id="@+id/pay_total"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_vertical"
+                android:text="@string/total"
+                android:textColor="@color/service_font"
+                android:textSize="30px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:text="@string/all_total"
+                android:id="@+id/pay_money"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="20px"
+                android:gravity="center_vertical"
+                android:textColor="@color/logout_bt_bj"
+                android:textSize="30px"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_bj"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool" />
+
+    <com.frame.commonframe.viewtype.ProgressActivity
+        android:id="@+id/progress_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/cl_0d1018"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+                <!--<ImageView-->
+                    <!--android:src="@drawable/new_service_phone_text"-->
+                    <!--android:id="@+id/new_device_text"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+                <!--android:src="@drawable/new_service_bg"-->
+                <ImageView
+                    android:id="@+id/new_device_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/buy"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:background="@drawable/select_pay_button_bg"
+                android:gravity="center"
+                android:text="@string/click_buy"
+                android:textColor="@color/cl_ffffffff" />
+
+        </LinearLayout>
+        <!--<com.jcodecraeer.xrecyclerview.XRecyclerView-->
+        <!--android:id="@+id/xRecyclerView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/in_1"-->
+        <!--android:layout_marginTop="40px" />-->
+    </com.frame.commonframe.viewtype.ProgressActivity>
+
+</LinearLayout>

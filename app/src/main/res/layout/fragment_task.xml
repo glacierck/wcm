@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/me_bj"
+              android:orientation="vertical">
+
+    <!--<include-->
+        <!--layout="@layout/include_tool_bar"/>-->
+    <include layout="@layout/tool"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:background="@color/cl_ffffffff">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/task_tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="80px"/>
+
+        <!--<android.support.design.widget.TabLayout-->
+            <!--android:paddingLeft="30px"-->
+            <!--android:id="@+id/task_tab_layout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="80px"-->
+            <!--app:tabMode="scrollable"-->
+            <!--app:tabMinWidth="60px"-->
+            <!--app:tabContentStart="30px"-->
+            <!--app:tabIndicatorColor="@color/logout_bt_bj"-->
+            <!--app:tabSelectedTextColor="@color/logout_bt_bj"-->
+            <!--app:tabTextAppearance="@style/TablayoutTextAppearance"-->
+            <!--app:tabTextColor="@color/tran_bg"/>-->
+
+
+
+    </FrameLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/task_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20px"
+        android:background="@color/cl_ffffffff"/>
+
+</LinearLayout>

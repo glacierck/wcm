@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_address_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20px"
+    android:background="@color/rippelColor"
+    android:minHeight="260px"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/select_me_item_bg"
+        android:orientation="horizontal"
+        android:padding="30px">
+
+        <TextView
+            android:id="@+id/addressee_man"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/edit_man"
+            android:textColor="@color/service_font"
+            android:textSize="30px" />
+
+        <TextView
+            android:id="@+id/addressee_phone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/addressee_phone_hint"
+            android:textColor="@color/service_font"
+            android:textSize="30px" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40px"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:paddingTop="10px"
+        android:text="@string/text_5"
+        android:textColor="@color/service_font"
+        android:textSize="30px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/me_bj_list" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80px">
+
+        <LinearLayout
+            android:id="@+id/default_address"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="30px">
+
+            <com.kongrongqi.shopmall.wedget.SmoothCheckBox
+                android:id="@+id/default_address_checkbox"
+                android:layout_width="33px"
+                android:layout_height="33px"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                app:color_checked="@color/cl_ffff0000"
+                app:color_unchecked="@color/cl_ffffffff"
+                app:stroke_width="2px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16px"
+                android:text="@string/defaout_address"
+                android:textColor="@color/service_font"
+                android:textSize="24px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="30px">
+
+            <TextView
+                android:id="@+id/edit_address"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/edit_address"
+                android:drawablePadding="6px"
+                android:gravity="center_vertical"
+                android:text="@string/edit"
+                android:textColor="@color/service_font"
+                android:textSize="24px" />
+
+            <TextView
+                android:id="@+id/delete_address"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="22px"
+                android:drawableLeft="@drawable/delete_address"
+                android:drawablePadding="6px"
+                android:gravity="center_vertical"
+                android:text="@string/delete"
+                android:textColor="@color/service_font"
+                android:textSize="24px" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

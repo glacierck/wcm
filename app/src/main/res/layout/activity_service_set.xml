@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_bj"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool" />
+
+    <LinearLayout
+        android:layout_marginTop="40px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingLeft="30px"
+            android:paddingRight="30px"
+            android:gravity="center_vertical"
+            android:background="@color/rippelColor"
+            android:layout_width="match_parent"
+            android:minHeight="120px"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/service_font"
+                android:textSize="30px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_data"/>
+
+            <TextView
+                android:id="@+id/tatal_data"
+                android:textColor="@color/logout_bt_bj"
+                android:textSize="30px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10000000000"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:paddingTop="60px"
+            android:paddingBottom="60px"
+            android:layout_marginTop="20px"
+            android:paddingLeft="30px"
+            android:paddingRight="30px"
+            android:background="@color/rippelColor"
+            android:layout_width="match_parent"
+            android:minHeight="310px"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/service_font"
+                android:textSize="30px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/naming_service_hint"/>
+
+            <EditText
+                android:maxLines="10"
+                android:layout_marginTop="40px"
+                android:id="@+id/service_name"
+                style="@style/EditTextStyle_Common_60"
+                android:hint="自助加友"
+                android:textColor="@color/cl_484848"
+                android:textSize="26px" />
+
+            <TextView
+                android:layout_marginTop="40px"
+                android:textColor="@color/logout_bt_bj"
+                android:textSize="22px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/naming_service_notice"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:paddingTop="60px"
+            android:paddingBottom="60px"
+            android:layout_marginTop="20px"
+            android:paddingLeft="30px"
+            android:paddingRight="30px"
+            android:gravity="center_vertical"
+            android:background="@color/rippelColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/service_font"
+                    android:textSize="30px"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/service_number"/>
+
+                <LinearLayout
+                    android:gravity="right"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/service_number"
+                        style="@style/EditTextStyle_Common_60"
+                        android:hint="1"
+                        android:inputType="number"
+                        android:layout_width="170px"
+                        android:textColor="@color/cl_484848"
+                        android:textSize="26px" />
+
+                    <TextView
+                        android:layout_marginLeft="20px"
+                        android:textColor="@color/service_font"
+                        android:textSize="30px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="份"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/max_hint"
+                android:layout_marginTop="40px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1111"
+                android:textColor="@color/logout_bt_bj"
+                android:textSize="22px"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/create_service"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/select_pay_button_bg"
+        android:text="@string/create_service"
+        android:textColor="@color/cl_ffffffff"
+        android:textSize="30px"
+        android:textStyle="bold" />
+
+</LinearLayout>

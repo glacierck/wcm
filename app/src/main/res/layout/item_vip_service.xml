@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cl_ffffffff"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/me_bj_list"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="303px"
+        android:background="@color/cl_ffffffff"
+        android:orientation="vertical"
+        android:paddingLeft="30px"
+        android:paddingRight="32px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="59px"
+            android:layout_marginTop="48px"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/service_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vip_guanfan"
+                android:textColor="@color/service_font"
+                android:textSize="30px" />
+
+            <TextView
+                android:id="@+id/time_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/vip_time"
+                android:textColor="@color/me_7D7D7D"
+                android:textSize="22px" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/service_tiaojian"
+            android:textColor="@color/service_font"
+            android:textSize="26px" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:text="@string/service_tiaojian_1"
+            android:textColor="@color/service_font"
+            android:textSize="26px" />
+
+    </LinearLayout>
+</LinearLayout>

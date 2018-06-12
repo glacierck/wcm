@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_old_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px"
+        android:layout_marginTop="120px"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/machineCode_guzhang"
+            style="@style/EditTextStyle_Common"
+            android:maxLength="18"
+            android:inputType="number"
+            android:layout_width="0dp"
+            android:layout_marginRight="20px"
+            android:layout_weight="1"
+            android:hint="@string/change_device_hint"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_scan"
+            android:layout_width="60px"
+            android:layout_height="60px">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:id="@+id/scan1"
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:src="@drawable/saoma" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/account_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125px"
+            android:layout_marginRight="125px"
+            android:layout_marginTop="40px"
+            android:lineSpacingExtra="5px"
+            android:text="@string/me_please_imei_1"
+            android:textColor="@color/me_7D7D7D"
+            android:textSize="22px" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125px"
+            android:layout_marginRight="125px"
+            android:layout_marginTop="20px"
+            android:lineSpacingExtra="5px"
+            android:text="@string/me_please_imei_2"
+            android:textColor="@color/me_7D7D7D"
+            android:textSize="22px" />
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll_guzhang"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="36dp">-->
+    <!--<EditText-->
+    <!--android:id="@+id/machineCode_guzhang"-->
+    <!--android:layout_width="500px"-->
+    <!--android:layout_height="36dip"-->
+    <!--android:background="@drawable/shape_devices_bj"-->
+    <!--android:padding="5dip"-->
+    <!--android:textColorHint="#AAAAAA"-->
+    <!--android:textSize="15dip"-->
+    <!--android:singleLine="true"-->
+    <!--android:hint="@string/change_device_hint"-->
+    <!--/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/scan1"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_width="50px"-->
+    <!--android:layout_height="50px"-->
+    <!--android:src="@drawable/saoma"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll_new"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="36dp">-->
+    <!--<EditText-->
+    <!--android:id="@+id/machineCode"-->
+    <!--android:layout_width="500px"-->
+    <!--android:layout_height="36dip"-->
+    <!--android:background="@drawable/shape_devices_bj"-->
+    <!--android:padding="5dip"-->
+    <!--android:textColorHint="#AAAAAA"-->
+    <!--android:textSize="15dip"-->
+    <!--android:singleLine="true"-->
+    <!--android:hint="@string/please_enter_IMEI"-->
+    <!--/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/scan2"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_width="50px"-->
+    <!--android:layout_height="50px"-->
+    <!--android:src="@drawable/saoma"/>-->
+
+    <!--</LinearLayout>-->
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/replace_enter"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px"
+        android:layout_marginTop="80px"
+        android:background="@drawable/select_logout_button_bg"
+        android:text="@string/ok"
+        android:textColor="@color/cl_ffffffff"
+        android:textSize="30px"
+        android:textStyle="bold" />
+
+    <!--android:text="@string/request_replace"ok-->
+
+</LinearLayout>

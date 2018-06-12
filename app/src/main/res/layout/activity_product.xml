@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_bj"
+    android:orientation="vertical">
+
+    <include android:id="@+id/in_2" layout="@layout/tool" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/me_bj"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/me_bj"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:layout_marginLeft="30px"
+                android:paddingTop="40px"
+                android:text="服务内容"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="125px"
+                android:background="@color/rippelColor"
+                android:gravity="center_vertical"
+                android:paddingLeft="30px"
+                android:text=""
+                android:textColor="@color/cl_ff333333"
+                android:textSize="30px" />
+
+            <LinearLayout
+                android:id="@+id/no_join_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40px"
+                    android:textColor="@color/service_font" />
+
+                <LinearLayout
+                    android:background="@color/rippelColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="125px">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="125px"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="30px"
+                        android:text="@string/valid_time"
+                        android:textColor="@color/service_font"
+                        android:textSize="30px" />
+
+                    <TextView
+                        android:id="@+id/zhouqi"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:singleLine="true"
+                        android:gravity="right|center"
+                        android:paddingRight="30px"
+                        android:text=""
+                        android:textColor="@color/logout_bt_bj"
+                        android:textSize="30px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="@color/rippelColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="125px"
+                    android:layout_marginTop="2px">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="125px"
+                        android:layout_weight="1"
+                        android:background="@color/rippelColor"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="30px"
+                        android:text="服务价格"
+                        android:textColor="@color/service_font"
+                        android:textSize="30px" />
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right|center"
+                        android:singleLine="true"
+                        android:paddingRight="30px"
+                        android:text=""
+                        android:textColor="@color/logout_bt_bj"
+                        android:textSize="30px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="@color/rippelColor"
+                    android:id="@+id/ll_range"
+                    android:layout_width="match_parent"
+                    android:layout_height="125px"
+                    android:layout_marginTop="2px">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="125px"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="30px"
+                        android:text="@string/combo_shop"
+                        android:textColor="@color/service_font"
+                        android:textSize="30px" />
+
+                    <TextView
+                        android:id="@+id/range"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right|center"
+                        android:paddingRight="30px"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/logout_bt_bj"
+                        android:textSize="30px" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:layout_marginLeft="30px"
+                android:paddingTop="40px"
+                android:text="服务说明"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+
+            <TextView
+                android:id="@+id/explain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/rippelColor"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="2dp"
+                android:lineSpacingMultiplier="1.2"
+                android:minHeight="150px"
+                android:paddingBottom="50px"
+                android:paddingLeft="30px"
+                android:paddingTop="50px"
+                android:text=""
+                android:textColor="@color/service_font"
+                android:textSize="30px" />
+            <TextView
+                android:layout_marginBottom="70px"
+                android:id="@+id/notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="40px"
+                android:textColor="@color/logout_bt_bj"
+                android:textSize="26px" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/buy_service"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/select_pay_button_bg"
+        android:gravity="center"
+        android:text="@string/buy_now"
+        android:textColor="@color/cl_ffffffff" />
+</LinearLayout>

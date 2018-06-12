@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_bj">
+
+    <include
+        android:id="@+id/in_9"
+        layout="@layout/tool" />
+
+    <com.frame.commonframe.viewtype.ProgressActivity
+        android:layout_below="@+id/in_9"
+        android:id="@+id/progress_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/fansbRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40px" />
+    </com.frame.commonframe.viewtype.ProgressActivity>
+</RelativeLayout>

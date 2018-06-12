@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/me_bj"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/me_bj_list"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:background="@color/cl_ffffffff"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_account"
+            android:layout_marginLeft="30px"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/weixin_no"
+            android:textSize="30px"
+            android:textColor="@color/service_font"/>
+
+        <TextView
+            android:id="@+id/tv_band_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="18631486845"
+            android:textSize="30px"
+            android:textColor="@color/service_font"/>
+    </LinearLayout>
+</LinearLayout>

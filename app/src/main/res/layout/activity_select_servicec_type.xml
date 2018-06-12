@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_bj"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_1"
+        layout="@layout/tool" />
+
+
+    <com.frame.commonframe.viewtype.ProgressActivity
+        android:layout_below="@id/toolbar_1"
+        android:id="@+id/progress_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.jcodecraeer.xrecyclerview.XRecyclerView
+                android:id="@+id/xRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15px" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/cl_ffffffff">
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:id="@+id/pay_pay"
+                    android:layout_width="241px"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_pay_button_bg"
+                    android:text="@string/buy"
+                    android:textColor="@color/cl_ffffffff"
+                    android:textSize="30px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/pay_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="20px"
+                    android:layout_toLeftOf="@id/pay_pay"
+                    android:gravity="center_vertical"
+                    android:text="@string/test_2"
+                    android:textColor="@color/logout_bt_bj"
+                    android:textSize="30px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/pay_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toLeftOf="@id/pay_money"
+                    android:gravity="center_vertical"
+                    android:text="@string/total"
+                    android:textColor="@color/service_font"
+                    android:textSize="30px"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </com.frame.commonframe.viewtype.ProgressActivity>
+
+</RelativeLayout>

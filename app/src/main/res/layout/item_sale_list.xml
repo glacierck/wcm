@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="130px"
+              android:background="@color/cl_ffffffff"
+              android:orientation="vertical"
+              android:paddingTop="10px">
+
+    <LinearLayout
+        android:id="@+id/item_ll_root"
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:background="@color/cl_ffffffff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_sale_day"
+            android:layout_width="120px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:textColor="@color/cl_484848"
+            android:textSize="30px"/>
+
+        <TextView
+            android:id="@+id/item_sale"
+            android:layout_width="60px"
+            android:layout_height="32px"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:background="@drawable/sale_bj"
+            android:paddingBottom="5px"
+            android:paddingTop="5px"
+            android:textSize="19px"
+            android:textColor="@color/logout_bt_bj"/>
+
+        <ImageView
+            android:id="@+id/item_hot"
+            android:layout_width="28px"
+            android:layout_height="32px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15px"
+            android:background="@drawable/hot"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textColor="@color/logout_bt_bj"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/item_discount_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <com.kongrongqi.shopmall.wedget.SmoothCheckBox
+            android:id="@+id/item_check_box"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:gravity="center_vertical"
+            app:color_checked="@color/login_button_bj"
+            app:color_unchecked="@color/cl_ffffffff"
+            app:stroke_width="5px"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/me_bj"/>
+</LinearLayout>

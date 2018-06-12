@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/me_bj"
+    android:orientation="vertical">
+
+
+    <!--<FrameLayout-->
+        <!--android:layout_marginLeft="125px"-->
+        <!--android:layout_marginRight="125px"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="139px">-->
+
+        <!--&lt;!&ndash;<CheckBox&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/userCbPwd"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="32px"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="32px"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_gravity="right|center_vertical"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginRight="20px"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:button="@drawable/name"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:scaleType="centerCrop" />&ndash;&gt;-->
+
+
+        <!--<CheckBox-->
+            <!--android:id="@+id/userCbPwd"-->
+            <!--android:layout_width="32px"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="right|center_vertical"-->
+            <!--android:layout_marginRight="20px"-->
+            <!--android:button="@drawable/password"-->
+            <!--android:scaleType="centerCrop" />-->
+
+
+
+        <!--<EditText-->
+            <!--android:id="@+id/wechatNo"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="60px"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@drawable/shape_dialog_bj"-->
+            <!--android:hint="@string/please_enter_weixin_no"-->
+            <!--android:padding="5dip"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColorHint="@color/login_input_line"-->
+            <!--android:textSize="26px" />-->
+    <!--</FrameLayout>-->
+
+    <LinearLayout
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px"
+        android:background="@drawable/shape_dialog_bj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="139px"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_marginRight="5px"
+            android:paddingLeft="10px"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70px"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHint="@color/cl_cbcbcb"
+            android:textSize="26px"
+            android:textColor="@color/service_font"
+            android:background="@null"
+            android:maxLength="30"
+            android:id="@+id/wechatNo"
+            android:hint="@string/please_enter_weixin_no"/>
+
+        <CheckBox
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/phone"
+            android:layout_width="32px"
+            android:layout_height="32px"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="20px"
+            android:button="@drawable/name"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px"
+        android:background="@drawable/shape_dialog_bj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50px">
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="0dp"
+            android:layout_height="70px"
+            android:layout_marginRight="5px"
+            android:layout_weight="1"
+            android:background="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/please_enter_weixin_passworld"
+
+            android:maxLength="30"
+            android:maxLines="1"
+            android:paddingLeft="10px"
+            android:singleLine="true"
+            android:textColor="@color/service_font"
+            android:textColorHint="@color/cl_cbcbcb"
+            android:textSize="26px" />
+        <!--android:inputType="textPassword"-->
+
+        <CheckBox
+            android:checked="true"
+            android:id="@+id/et_password_icon"
+            android:layout_width="32px"
+            android:layout_height="32px"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="20px"
+            android:button="@drawable/select_login_passwold_bg"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:gravity="center"
+        android:lineSpacingExtra="10px"
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59px"
+        android:text="@string/becareful_4"
+        android:textColor="@color/me_7D7D7D"
+        android:textSize="22px" />
+
+</LinearLayout>

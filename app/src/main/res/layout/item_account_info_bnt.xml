@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/me_bj"
+    android:orientation="vertical"
+    android:paddingBottom="20px">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/me_bj_list" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_marginTop="2px"
+        android:background="@color/cl_ffffffff"
+        android:orientation="horizontal"
+        android:paddingLeft="30px"
+        android:paddingRight="30px">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/user_service"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="60px"
+                android:layout_centerVertical="true"
+                android:background="@drawable/select_login_button_bg"
+                android:drawableLeft="@drawable/user_service_icon"
+                android:drawablePadding="10px"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:text="使用服务"
+                android:textColor="@color/cl_ffffffff"
+                android:textSize="26px" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30px"
+            android:layout_marginTop="30px"
+            android:background="@color/me_bj" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center_vertical|right">
+            <!--select_logout_button_bg-->
+            <Button
+                android:id="@+id/me_use"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="160px"
+                android:layout_height="60px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30px"
+                android:background="@drawable/select_service_details_blue_bg"
+                android:text="我要用号"
+                android:textColor="@color/cl_ffffffff"
+                android:textSize="26px" />
+
+            <Button
+                android:id="@+id/bt_change_account"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="160px"
+                android:layout_height="60px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30px"
+                android:background="@drawable/select_service_details_blue_bg"
+                android:text="我要换号"
+                android:textColor="@color/cl_ffffffff"
+                android:textSize="26px" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

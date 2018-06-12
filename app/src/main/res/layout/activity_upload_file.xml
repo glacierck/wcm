@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_bj"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool" />
+
+    <LinearLayout
+        android:layout_marginTop="40px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingLeft="30px"
+            android:paddingRight="30px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/rippelColor"
+            android:gravity="center"
+            android:minHeight="120px"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/me_7D7D7D"
+                android:id="@+id/upload_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/upload_file"
+                android:textSize="24px" />
+
+            <TextView
+                android:textColor="@color/me_7D7D7D"
+                android:id="@+id/url"
+                android:textSize="24px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upload_tv"
+                android:paddingLeft="40px"
+                android:paddingRight="40px"
+                android:textIsSelectable="true" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/me_bj_list" />
+
+        <LinearLayout
+            android:paddingLeft="30px"
+            android:paddingRight="30px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/rippelColor"
+            android:gravity="center_vertical"
+            android:minHeight="120px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:textColor="@color/me_7D7D7D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="20px"
+                android:drawableRight="@drawable/download"
+                android:text="2、请点击"
+                android:textSize="24px"/>
+
+            <TextView
+                android:textColor="@color/me_7D7D7D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:text="下载模版"
+                android:textSize="24px" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/me_bj_list" />
+
+        <LinearLayout
+            android:paddingLeft="30px"
+            android:paddingRight="30px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/rippelColor"
+            android:gravity="center_vertical"
+            android:minHeight="120px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/me_7D7D7D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawablePadding="20px"
+                android:text="3、请按照模版的样例填入数据"
+                android:textSize="24px" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/me_bj_list" />
+
+        <LinearLayout
+            android:paddingLeft="30px"
+            android:paddingRight="30px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/rippelColor"
+            android:gravity="center_vertical"
+            android:minHeight="120px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:textColor="@color/me_7D7D7D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawablePadding="20px"
+                android:drawableRight="@drawable/upload"
+                android:text="4、请点击"
+                android:textSize="24px" />
+
+            <TextView
+                android:textColor="@color/me_7D7D7D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20px"
+                android:text="完成上传"
+                android:textSize="24px" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/me_bj_list" />
+
+        <LinearLayout
+            android:paddingLeft="30px"
+            android:paddingRight="30px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/rippelColor"
+            android:gravity="center_vertical"
+            android:minHeight="120px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/me_7D7D7D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawablePadding="20px"
+                android:text="5、等待上传成功提示，点击app“我已上传”进行支付"
+                android:textSize="24px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="30px"
+            android:paddingTop="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="120px"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/logout_bt_bj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="注意："
+                android:textSize="24px" />
+            <TextView
+                android:layout_marginTop="10px"
+                android:textColor="@color/logout_bt_bj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="1.不同数据类型建议分次购买上传"
+                android:textSize="24px" />
+
+            <TextView
+                android:layout_marginTop="10px"
+                android:textColor="@color/logout_bt_bj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="2.每次上传数据量不得大于10w条"
+                android:textSize="24px" />
+            <TextView
+                android:layout_marginTop="10px"
+                android:textColor="@color/logout_bt_bj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="3.如数据总量超过10w条请联系客服处理"
+                android:textSize="24px" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/upload_tv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="80px"-->
+    <!--android:textSize="30px"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:gravity="center"-->
+    <!--android:text="@string/upload_file"/>-->
+
+    <!--<TextView-->
+    <!--android:layout_marginLeft="40px"-->
+    <!--android:layout_marginRight="40px"-->
+    <!--android:id="@+id/url"-->
+    <!--android:layout_below="@+id/upload_tv"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:textIsSelectable="true"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/me_change_device"-->
+    <!--style="@style/MeFrgText"-->
+    <!--android:text="@string/change_device"-->
+    <!--android:visibility="gone"/>-->
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="2px"-->
+    <!--android:background="@color/me_bj_list"/>-->
+
+
+    <Button
+        android:id="@+id/upload"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/select_pay_button_bg"
+        android:text="@string/upload"
+        android:textColor="@color/cl_ffffffff"
+        android:textSize="30px"
+        android:textStyle="bold" />
+
+</LinearLayout>

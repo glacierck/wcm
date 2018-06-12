@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/me_bj"
+    android:orientation="vertical">
+
+
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="79px"
+        android:layout_height="79px"
+        android:layout_marginTop="178px"
+        android:src="@drawable/success" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39px"
+        android:gravity="center"
+        android:text="@string/congratulations"
+        android:textColor="@color/logout_bt_bj"
+        android:textSize="30px"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_change_hint2"
+        android:layout_marginTop="39px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px">
+
+        <TextView
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="99px"
+            android:text="@string/in_audit"
+            android:textSize="26px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/in_audit_1"
+            android:textColor="@color/me_7D7D7D"
+            android:textSize="22px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:text="@string/in_audit_2"
+            android:textSize="22px"
+            android:textColor="@color/me_7D7D7D"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_change_hint"
+        android:layout_marginTop="39px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:text="@string/in_audit_change"
+            android:textSize="22px"
+            android:textColor="@color/me_7D7D7D"/>
+    </LinearLayout>
+
+
+</LinearLayout>

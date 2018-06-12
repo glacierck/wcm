@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_bj"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool" />
+
+    <include
+        android:id="@+id/item_service_detail_header"
+        layout="@layout/item_account_info_bnt" />
+
+    <com.frame.commonframe.viewtype.ProgressActivity
+        android:id="@+id/progress_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/item_service_detail_header_2"
+                layout="@layout/item_account_info_bnt_2" />
+
+            <com.jcodecraeer.xrecyclerview.XRecyclerView
+                android:id="@+id/xRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </com.frame.commonframe.viewtype.ProgressActivity>
+</LinearLayout>

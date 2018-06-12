@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_dialog_bj"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:text="注意"
+        android:textColor="@color/service_font"
+        android:textSize="30px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:text="您的账号出现异常，请确认"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:text="1、账号是否被其他设备登录； "
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:text="2、账号是否被查封；"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:text="3、替换设备后是否重新登录账号。 处理完后，请尽快启动服务；"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:text="4、您的网络异常。"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/dialog_login_enter"
+        android:layout_width="wrap_content"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+        android:layout_height="60px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40px"
+        android:layout_marginTop="38px"
+        android:background="@drawable/select_red_bg"
+        android:text="我已处理，继续执行"
+        android:textColor="@color/cl_ffffffff"
+        android:textSize="26px"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

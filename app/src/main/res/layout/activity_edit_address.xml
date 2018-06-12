@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/me_bj"
+                android:orientation="vertical">
+
+    <include android:id="@+id/in_3" layout="@layout/tool"/>
+
+    <LinearLayout
+        android:id="@+id/ll_4"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_below="@+id/in_3"
+        android:layout_marginTop="30px"
+        android:background="@color/cl_ffffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="30px">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/edit_man"
+            android:textSize="30px"
+            android:textColor="@color/service_font"/>
+
+        <EditText
+            android:id="@+id/edit_man"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            style="@style/EditTextStyle_Common"
+            android:layout_marginRight="30px"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_5"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_below="@+id/ll_4"
+        android:layout_marginTop="2px"
+        android:background="@color/cl_ffffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="30px"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/addressee_phone"
+            android:textSize="30px"
+            android:textColor="@color/service_font"/>
+
+        <EditText
+            style="@style/EditTextStyle_Common"
+            android:id="@+id/edit_phone"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_marginRight="30px"
+            android:digits="@string/alphabet_and_number"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_6"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:background="@color/cl_ffffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="30px"
+        android:layout_below="@+id/ll_5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/address"
+            android:textSize="30px"
+            android:textColor="@color/service_font"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            style="@style/EditTextStyle_Common"
+            android:id="@+id/edit_address"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_marginRight="30px"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170px"
+        android:layout_below="@+id/ll_6"
+        android:layout_marginTop="2px"
+        android:background="@color/cl_ffffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="30px">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/address_detail"
+            android:textSize="30px"
+            android:textColor="@color/service_font"/>
+
+        <EditText
+            android:textColor="@color/service_font"
+            android:id="@+id/edit_address_details"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="140px"
+            android:layout_marginRight="30px"
+            android:background="@drawable/shape_address_edit_bg"
+            android:gravity="top"
+            android:hint="@string/address_hint"
+            android:padding="10px"
+            android:textColorHint="@color/cl_bcbcbc"
+            android:textSize="26px"/>
+
+    </LinearLayout>
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/edit_save"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/select_pay_button_bg"
+        android:text="@string/save"
+        android:textColor="@color/cl_ffffffff"
+        android:textSize="30px"
+        android:textStyle="bold"
+        />
+</RelativeLayout>

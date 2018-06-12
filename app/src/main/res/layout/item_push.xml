@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="30px"
+    android:paddingRight="30px"
+    android:layout_marginTop="2px">
+
+
+    <TextView
+        android:paddingTop="10px"
+        android:paddingBottom="10px"
+        android:paddingRight="15px"
+        android:paddingLeft="15px"
+        android:background="@drawable/shape_msg_time_bg"
+        android:layout_gravity="center"
+        android:text="2017-07-24 14:22"
+        android:id="@+id/push_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:textColor="@color/me_7D7D7D"
+        android:textSize="22px"
+        android:layout_marginBottom="40px"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginRight="10px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/msg_dis"/>
+        <TextView
+            android:padding="40px"
+            android:background="@drawable/msg"
+            android:text="@string/about_conpony"
+            android:id="@+id/push_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/me_7D7D7D"
+            android:textSize="26px" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

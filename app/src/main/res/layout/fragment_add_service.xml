@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.frame.commonframe.viewtype.ProgressActivity
+        android:id="@+id/progress_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <com.jcodecraeer.xrecyclerview.XRecyclerView
+                    android:id="@+id/xRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/in_1" />
+            </FrameLayout>
+            <!--<Button-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:id="@+id/user_service"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="70px"-->
+                <!--android:layout_below="@id/xRecyclerView"-->
+                <!--android:background="@drawable/select_pay_button_bg"-->
+                <!--android:text="@string/use_add_service"-->
+                <!--android:textColor="@color/cl_ffffffff"-->
+                <!--android:textSize="14sp" />-->
+        </LinearLayout>
+    </com.frame.commonframe.viewtype.ProgressActivity>
+
+</LinearLayout>

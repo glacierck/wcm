@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_dialog_bj_1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:text="@string/invoce_expalain"
+        android:textColor="@color/service_font"
+        android:textSize="32px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="420px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35px"
+        android:text="@string/explain_1"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_width="420px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5px"
+        android:text="@string/explain_1_1"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_width="420px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35px"
+        android:text="@string/explain_2"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_width="420px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5px"
+        android:text="@string/explain_2_2"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_width="420px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35px"
+        android:text="@string/explain_3"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5px"
+        android:text="@string/explain_3_3"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <Button
+        android:textStyle="bold"
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/dialog_login_enter"
+        android:layout_width="230px"
+        android:layout_height="68px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40px"
+        android:layout_marginTop="40px"
+        android:background="@drawable/select_red_bg"
+        android:text="@string/confirm"
+        android:textColor="@color/cl_ffffffff"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

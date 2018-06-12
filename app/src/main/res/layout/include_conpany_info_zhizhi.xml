@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inlicde_rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_marginLeft="30px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10px"
+            android:text="@string/addressee"
+            android:textColor="@color/me_7D7D7D"
+            android:textSize="22px" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:background="@color/rippelColor"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="@string/edit_man"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingRight="30px">
+
+                <EditText
+                    android:id="@+id/name"
+                    style="@style/EditTextStyle_Common"
+                    android:hint="@string/edit_man_hint"
+                    android:paddingLeft="15px" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/me_bj" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="@string/shoujianren_phone"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingRight="30px">
+
+                <EditText
+                    android:id="@+id/phone"
+                    style="@style/EditTextStyle_Common"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:hint="@string/shoujianren_phone_hind" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/me_bj" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="@string/address"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingRight="30px">
+
+                <TextView
+                    android:id="@+id/address"
+                    style="@style/TextStyle_Common"
+                    android:inputType="text"
+                    android:gravity="center_vertical"
+                    android:hint="@string/address_hind" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/me_bj" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="@string/address_detail"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingRight="30px">
+
+                <EditText
+                    android:id="@+id/address_details"
+                    style="@style/EditTextStyle_Common"
+                    android:hint="@string/address_detail_hind"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_marginLeft="30px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10px"
+            android:text="@string/beizhu"
+            android:textColor="@color/me_7D7D7D"
+            android:textSize="22px" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:background="@color/rippelColor"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30px">
+
+        <EditText
+            android:id="@+id/remarks"
+            android:layout_width="match_parent"
+            android:layout_height="185px"
+            android:layout_centerVertical="true"
+            android:background="@drawable/select_post_new_bg"
+            android:gravity="top"
+            android:hint="@string/beizhu_hind"
+            android:paddingLeft="15px"
+            android:paddingTop="20px"
+            android:textColor="@color/service_font"
+            android:textColorHint="@color/cl_cbcbcb"
+            android:textSize="26px" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="30px"
+            android:gravity="bottom|left"
+            android:text="@string/kaipiao_shuoming_12000"
+            android:textColor="@color/me_7D7D7D"
+            android:textSize="22px" />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/open_invoice_explain"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10px"
+            android:layout_marginRight="30px"
+            android:gravity="bottom|right"
+            android:text="@string/kaipiao_shuoming"
+            android:textColor="@color/me_7D7D7D"
+            android:textSize="22px" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+

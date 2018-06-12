@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cl_ffffffff"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/me_bj_list"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="30px">
+
+        <TextView
+            android:id="@+id/not_use_service_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/service_type"
+            android:textColor="@color/service_font"
+            android:textSize="30px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/not_item_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/weight"
+            android:textColor="@color/login_button_bj"
+            android:textSize="30px"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/not_use_describe"
+                style="@style/ServiceText"
+                android:text="@string/service_info" />
+
+            <TextView
+                android:id="@+id/not_use_cycle"
+                style="@style/ServiceText"
+                android:text="@string/service_cycle" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_alignParentBottom="true"
+                android:id="@+id/not_use_use"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="160px"
+                android:layout_height="60px"
+                android:background="@drawable/select_logout_button_bg"
+                android:text="@string/use_1"
+                android:textColor="@color/cl_ffffffff" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/item_ll_root"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/cl_ffffffff"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="220px"-->
+            <!--android:layout_marginLeft="30px"-->
+            <!--android:layout_weight="2"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/not_use_service_name"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/service_type"-->
+                <!--android:textColor="@color/service_font"-->
+                <!--android:textSize="30px"-->
+                <!--android:textStyle="bold"/>-->
+
+            <!--<TextView-->
+                <!--android:layout_marginTop="30px"-->
+                <!--android:id="@+id/not_use_describe"-->
+                <!--style="@style/ServiceText"-->
+                <!--android:text="@string/service_info"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/not_use_cycle"-->
+                <!--style="@style/ServiceText"-->
+                <!--android:text="@string/service_cycle"/>-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_marginRight="30px"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center|right"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+                <!--<TextView-->
+                    <!--android:gravity="right"-->
+                    <!--android:id="@+id/not_item_num"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/weight"-->
+                    <!--android:textColor="@color/login_button_bj"-->
+                    <!--android:textSize="30px"-->
+                    <!--android:textStyle="bold"/>-->
+
+                <!--<Button-->
+                    <!--style="?android:attr/borderlessButtonStyle"-->
+                    <!--android:id="@+id/not_use_use"-->
+                    <!--android:layout_width="160px"-->
+                    <!--android:layout_height="60px"-->
+                    <!--android:layout_marginTop="40px"-->
+                    <!--android:background="@drawable/select_logout_button_bg"-->
+                    <!--android:text="@string/use_1"-->
+                    <!--android:textColor="@color/cl_ffffffff"-->
+                    <!--android:textSize="26px"-->
+                    <!--android:textStyle="bold"/>-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1px"-->
+        <!--android:background="@color/login_input_line"/>-->
+</LinearLayout>

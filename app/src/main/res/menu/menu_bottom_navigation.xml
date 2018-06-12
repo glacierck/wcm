@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_call"
+        android:icon="@drawable/es_icon_qzone"
+        android:title="@string/account"/>
+    <item
+        android:id="@+id/item_mail"
+        android:icon="@drawable/es_icon_qq"
+        android:title="@string/service"/>
+
+    <item
+        android:id="@+id/item_person"
+        android:icon="@drawable/es_icon_wechat"
+        android:title="@string/task"/>
+
+    <item
+        android:id="@+id/item_me"
+        android:icon="@drawable/es_icon_weibo"
+        android:title="@string/me"/>
+</menu>

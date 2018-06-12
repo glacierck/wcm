@@ -1,0 +1,210 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/rippelColor</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!--全屏-->
+    <style name="FullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+
+    <style name="toolbar_theme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/rippelColor</item>
+    </style>
+
+    <!--自定义dialog背景全透明无边框theme -->
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+        <!--//Dialog的windowFrame框为无-->
+        <item name="android:windowFrame">@null</item>
+        <!--//是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--//是否半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--//是否显示title-->
+        <item name="android:windowNoTitle">true</item>
+        <!--//设置dialog的背景-->
+        <item name="android:background">@android:color/transparent</item>
+        <!--//显示区域背景是否透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--//就是用来控制灰度的值，当为1时，界面除了我们的dialog内容是高亮显示的，dialog以外的区域是黑色的，完全看不到其他内容，系统的默认值是0.5-->
+        <item name="android:backgroundDimAmount">0.5</item>
+        <!--//显示区域以外是否使用黑色半透明背景-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.NoBar">-->
+    <!--<item name="windowNoTitle">true</item>-->
+    <!--<item name="android:windowFullscreen">true</item>-->
+    <!--</style>-->
+
+
+    <style name="EditTextStyle_Common_60">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60px</item>
+        <item name="android:background">@drawable/shape_dialog_bj</item>
+        <!--<item name="android:focusable">true</item>-->
+        <!--<item name="android:focusableInTouchMode">true</item>-->
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/cl_cbcbcb</item>
+        <item name="android:textSize">26px</item>
+        <item name="android:textColor">@color/service_font</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingLeft">15px</item>
+    </style>
+
+
+    <style name="EditTextStyle_Common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70px</item>
+        <item name="android:background">@drawable/shape_dialog_bj</item>
+        <!--<item name="android:focusable">true</item>-->
+        <!--<item name="android:focusableInTouchMode">true</item>-->
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/cl_cbcbcb</item>
+        <item name="android:textSize">26px</item>
+        <item name="android:textColor">@color/service_font</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingLeft">10px</item>
+    </style>
+
+    <style name="TextStyle_Common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70px</item>
+        <item name="android:background">@drawable/shape_dialog_bj</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/cl_cbcbcb</item>
+        <item name="android:textSize">26px</item>
+        <item name="android:textColor">@color/service_font</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingLeft">10px</item>
+    </style>
+
+
+    <!--edittext 下划线变色-->
+    <style name="EditTextStyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/login_input_line_normal</item>
+        <item name="colorControlActivated">@color/login_input_line</item>
+    </style>
+
+    <!--文字点击变色-->
+    <style name="TextViewStyle" parent="Theme.AppCompat.Light">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_4d000000</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="MeFrgText2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">120px</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">30px</item>
+        <item name="android:paddingRight">30px</item>
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">@color/service_font</item>
+    </style>
+
+    <style name="MeFrgText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">120px</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">30px</item>
+        <item name="android:paddingRight">30px</item>
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">@color/service_font</item>
+        <item name="android:background">@drawable/select_me_item_bg</item>
+        <item name="android:drawableRight">@drawable/more</item>
+    </style>
+
+
+    <style name="ServiceDatailsText">
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/service_font</item>
+        <item name="android:textSize">30px</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="ServiceText">
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/me_7D7D7D</item>
+        <item name="android:textSize">26px</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20px</item>
+    </style>
+
+    <style name="FinishText">
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/me_7D7D7D</item>
+        <item name="android:textSize">26px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20px</item>
+    </style>
+
+    <style name="TablayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textScaleX">1.0</item>
+    </style>
+
+    <!-- 加载框的Dialog 样式-->
+    <style name="Custom_Progress" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MMLineButton" parent="@style/MMButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/logout_bt_bj</item>
+    </style>
+
+    <style name="MMButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/logout_bt_bj</item>
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:minWidth">40dp</item>
+    </style>
+</resources>

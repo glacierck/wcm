@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/rippelColor"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:minHeight="100px"
+    android:orientation="vertical"
+    >
+    <!--<item name="android:focusable">true</item>-->
+    <!--<item name="android:focusableInTouchMode">true</item>-->
+
+
+    <RelativeLayout
+        android:id="@+id/rl_call_text_head"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@color/cl_EFF3FE"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/call_text_head_hint"
+            android:textColor="@color/service_font"
+            android:textSize="30px" />
+
+        <!--<TextView-->
+        <!--android:textColor="@color/service_font"-->
+        <!--android:textSize="30px"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/call_text_head_hint"/>-->
+
+        <!--<ImageView-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/more"/>-->
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:layout_marginTop="40px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/ll_checkbox"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+
+            <com.kongrongqi.shopmall.wedget.SmoothCheckBox
+                android:id="@+id/item_checkbox"
+                android:layout_width="33px"
+                android:layout_height="33px"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                app:color_checked="@color/login_button_bj"
+                app:color_unchecked="@color/cl_ffffffff"
+                app:stroke_width="2px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9">
+
+            <TextView
+                android:id="@+id/callTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="公司名+"
+                android:textColor="@color/service_font"
+                android:textSize="30px" />
+
+            <EditText
+                android:id="@+id/callTxt"
+                style="@style/EditTextStyle_Common_60"
+                android:layout_marginLeft="15px"
+                android:hint="麻烦通过 （点击编辑）"
+                android:textColor="@color/cl_484848"
+                android:textSize="26px" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40px"
+        android:layout_marginTop="40px">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/callSample"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:text="样例：xxx有限公司，麻烦通过"
+            android:textColor="@color/cl_ff888888"
+            android:textSize="26px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/me_bj_list" />
+
+
+</LinearLayout>

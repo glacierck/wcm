@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/tool" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/rippelColor"
+            android:gravity="center"
+            android:minHeight="165px"
+            android:orientation="vertical"
+            android:paddingLeft="30px"
+            android:paddingRight="30px">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您选择的定向包为："
+                android:textColor="@color/service_font"
+                android:textSize="30px" />
+
+            <TextView
+                android:id="@+id/rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px"
+                android:text="您选择的定向包为："
+                android:textColor="@color/me_7D7D7D"
+                android:textSize="26px" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/rippelColor"
+            android:gravity="center"
+            android:minHeight="165px"
+            android:orientation="horizontal"
+            android:paddingLeft="30px"
+            android:paddingRight="30px">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sure_number"
+                android:textColor="@color/service_font"
+                android:textSize="30px" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/sure_number"
+                    style="@style/EditTextStyle_Common_60"
+                    android:layout_width="170px"
+                    android:hint="1"
+                    android:inputType="number"
+                    android:textColor="@color/cl_484848"
+                    android:textSize="26px" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20px"
+                    android:text="份"
+                    android:textColor="@color/service_font"
+                    android:textSize="30px" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/rippelColor"
+            android:gravity="center"
+            android:minHeight="165px"
+            android:orientation="horizontal"
+            android:paddingLeft="30px"
+            android:paddingRight="30px">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sure_number_day"
+                android:textColor="@color/service_font"
+                android:textSize="30px" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/sure_number_day"
+                    style="@style/EditTextStyle_Common_60"
+                    android:layout_width="170px"
+                    android:hint="1"
+                    android:inputType="number"
+                    android:textColor="@color/cl_484848"
+                    android:textSize="26px" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20px"
+                    android:text="天"
+                    android:textColor="@color/service_font"
+                    android:textSize="30px" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/create_package"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/select_pay_button_bg"
+        android:gravity="center"
+        android:text="@string/create_package"
+        android:textColor="@color/cl_ffffffff" />
+
+</RelativeLayout>

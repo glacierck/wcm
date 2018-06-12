@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inlicde_rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_marginLeft="30px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/company_info"
+            android:textColor="@color/me_7D7D7D"
+            android:textSize="22px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10px"
+            android:text="@string/company_info_2"
+            android:textColor="@color/me_7D7D7D"
+            android:textSize="22px" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="745px"
+        android:background="@color/rippelColor"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="@string/company"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingRight="30px">
+
+                <EditText
+                    android:id="@+id/invoice_company_name"
+                    style="@style/EditTextStyle_Common"
+                    android:hint="@string/company_hind" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/me_bj" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="@string/company_peple"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingRight="30px">
+
+                <EditText
+                    android:id="@+id/taxpayer"
+                    style="@style/EditTextStyle_Common"
+                    android:maxLength="30"
+                    android:hint="@string/company_peple_hind" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/me_bj" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="@string/zhuce_addressee"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingRight="30px">
+
+                <EditText
+                    android:id="@+id/registered_address"
+                    style="@style/EditTextStyle_Common"
+                    android:hint="@string/zhuce_addressee_hind" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/me_bj" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="@string/zhuce_phone"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingRight="30px">
+
+                <EditText
+                    android:id="@+id/registered_phone"
+                    style="@style/EditTextStyle_Common"
+                    android:hint="@string/zhuce_phone_hind"
+                    android:digits="@string/alphabet_and_number"
+                    android:inputType="number"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/me_bj" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="@string/kaihuhang"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingRight="30px">
+
+                <EditText
+                    android:id="@+id/bank"
+                    style="@style/EditTextStyle_Common"
+                    android:hint="@string/kaihuhang_hind" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/me_bj" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="@string/zhanghao"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingRight="30px">
+
+                <EditText
+                    android:id="@+id/bank_number"
+                    style="@style/EditTextStyle_Common"
+                    android:inputType="number"
+                    android:maxLength="30"
+                    android:hint="@string/zhanghao_hind" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_marginLeft="30px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10px"
+            android:text="@string/msg_info"
+            android:textColor="@color/me_7D7D7D"
+            android:textSize="22px" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:background="@color/rippelColor"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="@string/invoice_details"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingRight="30px">
+
+                <com.kongrongqi.shopmall.wedget.materialspinner.MaterialSpinner
+                    android:id="@+id/invoice_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/me_bj" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="@string/invoice_money"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingRight="30px">
+
+                <EditText
+                    android:id="@+id/invoice_money"
+                    style="@style/EditTextStyle_Common"
+                    android:enabled="false" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+

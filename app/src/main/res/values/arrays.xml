@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spiner_list">
+        <item>软件费</item>
+        <item>软件开发费</item>
+        <item>技术开发费</item>
+        <item>技术服务费</item>
+        <item>技术咨询费</item>
+        <item>设备费</item>
+        <item>其他</item>
+    </string-array>
+</resources>

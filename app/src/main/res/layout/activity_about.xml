@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/tool" />
+
+        <WebView
+            android:id="@+id/wb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!--<ImageView-->
+        <!--android:id="@+id/login_logo"-->
+        <!--android:layout_width="150px"-->
+        <!--android:layout_height="150px"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="70px"-->
+        <!--android:background="@drawable/logo" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:text="@string/kongrongqi"-->
+        <!--android:textColor="@color/cl_ff000000"-->
+        <!--android:textSize="18sp" />-->
+
+        <!--<TextView-->
+        <!--android:lineSpacingMultiplier="1.5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="90px"-->
+        <!--android:layout_marginRight="90px"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:text="@string/about" />-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/look_user_agreement"-->
+        <!--android:textColor="@color/login_button_bj"-->
+        <!--android:layout_marginBottom="80px"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/look_user_agreement"/>-->
+
+
+        <!--<TextView-->
+        <!--android:textSize="20px"-->
+        <!--android:textColor="@color/me_7D7D7D"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/about_time"/>-->
+        <!--<TextView-->
+        <!--android:textSize="20px"-->
+        <!--android:textColor="@color/me_7D7D7D"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/about_conpony"/>-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+
+</RelativeLayout>

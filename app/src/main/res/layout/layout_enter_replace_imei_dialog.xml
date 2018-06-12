@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_dialog_bj"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:text="添加成功"
+        android:textColor="@color/service_font"
+        android:textSize="30px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:text="已成功添加，您可以在我的设备里查看"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/dialog_login_enter"
+        android:layout_width="201px"
+        android:layout_height="60px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40px"
+        android:layout_marginTop="38px"
+        android:background="@drawable/select_red_bg"
+        android:text="确定"
+        android:textColor="@color/cl_ffffffff"
+        android:textSize="26px"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

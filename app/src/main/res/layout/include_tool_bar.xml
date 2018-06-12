@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:id="@+id/inlicde_rl_root"
+                android:layout_height="80px"
+                android:background="@color/login_button_bj"
+                android:gravity="center_vertical">
+
+
+    <LinearLayout
+        android:id="@+id/inlucde_left_bt"
+        android:layout_width="100px"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/inlucde_ib_left_bt"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back"
+            android:visibility="visible"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/inlucde_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/cl_ffffffff"
+        android:text="@string/kongrongqi"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/inlucde_ib_right_bt"
+        android:layout_width="@dimen/dd_dimen_104px"
+        android:layout_height="@dimen/dd_dimen_180px"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dd_dimen_20px"
+        android:visibility="gone" />
+    <ImageButton
+        android:visibility="gone"
+        android:id="@+id/inlucde_ib_right_bt_2"
+        android:layout_width="@dimen/dd_dimen_44px"
+        android:layout_height="@dimen/dd_dimen_44px"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dd_dimen_30px" />
+    <TextView
+        android:id="@+id/inlucde_tv_right_bt"
+        android:layout_width="@dimen/dd_dimen_104px"
+        android:layout_height="@dimen/dd_dimen_180px"
+        android:layout_marginTop="@dimen/dd_dimen_15px"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dd_dimen_20px"
+        android:visibility="gone" />
+</RelativeLayout>
+

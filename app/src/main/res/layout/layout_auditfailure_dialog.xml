@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_dialog_bj"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:text="审核失败"
+        android:textColor="@color/service_font"
+        android:textSize="30px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="40px"
+        android:text="可能原因："
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="40px"
+        android:text="1、账号未实名"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="40px"
+        android:gravity="center"
+        android:text="2、未绑定实名认证银行卡"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <LinearLayout
+        android:layout_marginBottom="40px"
+        android:layout_marginTop="40px"
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/again_confirm"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:background="@drawable/select_red_bg"
+            android:gravity="center"
+            android:text="我已处理，重新审核"
+            android:textColor="@color/rippelColor"
+            android:textSize="26px" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/add"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:layout_marginTop="20px"
+            android:background="@drawable/select_red_bg"
+            android:gravity="center"
+            android:text="@string/change"
+            android:textColor="@color/rippelColor"
+            android:textSize="26px" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/execution"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:layout_marginTop="20px"
+            android:background="@drawable/select_red_bg"
+            android:gravity="center"
+            android:text="@string/execution"
+            android:textColor="@color/rippelColor"
+            android:textSize="26px" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/recovery"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:layout_marginTop="20px"
+            android:background="@drawable/select_red_bg"
+            android:gravity="center"
+            android:text="@string/recovery"
+            android:textColor="@color/rippelColor"
+            android:textSize="26px" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <include layout="@layout/tool"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="220px"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="150px">
+
+        <LinearLayout
+            android:id="@+id/devices_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/devices_imei"
+                android:layout_width="450px"
+                android:layout_height="80px"
+                android:background="@drawable/shape_login_edit_bg"
+                android:hint="@string/input_imei"
+                android:inputType="number"
+                android:textSize="12sp"/>
+
+            <ImageButton
+                android:id="@+id/devices_scan"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:layout_marginLeft="20px"
+                android:layout_toRightOf="@+id/devices_imei"
+                android:background="@drawable/es_icon_qzone"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/devices_hint"
+            android:layout_width="450px"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/devices_ll"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="40px"
+            android:text="@string/devices_hint"/>
+
+        <Button
+            android:id="@+id/devices_confirm"
+            android:layout_width="450px"
+            android:layout_height="75px"
+            android:layout_below="@+id/devices_hint"
+            android:layout_marginTop="60px"
+            android:background="@drawable/select_login_button_bg"
+            android:text="@string/confirm_add"
+            android:textColor="@color/cl_ffffffff"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+</merge>

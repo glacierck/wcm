@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_dialog_bj"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:text="注意"
+        android:textColor="@color/service_font"
+        android:textSize="30px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:text="您的账号出现异常，可能是"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:text="1、账号被封；"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:text="2、账号密码错误； "
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:text="3、该账号未在设备验证； "
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+
+    <TextView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:text="4、其他未知问题。"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <TextView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:text="请尽快处理，以免占用您的服务时间。"
+        android:textColor="@color/service_font"
+        android:textSize="26px" />
+
+    <LinearLayout
+        android:layout_marginBottom="40px"
+        android:layout_marginTop="40px"
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dialog_cancel"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:background="@drawable/select_red_bg"
+            android:gravity="center"
+            android:text="@string/again_confirm"
+            android:textColor="@color/rippelColor"
+            android:textSize="26px" />
+
+        <Button
+            android:id="@+id/dialog_confirm"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:layout_marginTop="20px"
+            android:background="@drawable/select_red_bg"
+            android:gravity="center"
+            android:text="@string/change"
+            android:textColor="@color/rippelColor"
+            android:textSize="26px" />
+    </LinearLayout>
+
+</LinearLayout>

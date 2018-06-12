@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/tool"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px"
+        android:layout_marginTop="100px"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/user_phone"
+                style="@style/EditTextStyle_Common"
+                android:hint="@string/name"
+                android:inputType="text"
+                android:maxLength="10" />
+
+            <CheckBox
+                android:id="@+id/user_name"
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="20px"
+                android:button="@drawable/name"
+                android:scaleType="centerCrop" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px">
+
+            <EditText
+                android:id="@+id/user_pwd"
+                style="@style/EditTextStyle_Common"
+                android:hint="@string/input_passwd"
+                android:inputType="textPassword"
+                android:maxLength="20" />
+
+            <CheckBox
+                android:id="@+id/userCbPwd"
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="20px"
+                android:button="@drawable/select_login_passwold_bg"
+                android:scaleType="centerCrop" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px">
+
+            <EditText
+                android:id="@+id/user_pwd_ok"
+                style="@style/EditTextStyle_Common"
+                android:hint="@string/input_confirm_passwd"
+                android:inputType="textPassword"
+                android:maxLength="20" />
+
+            <CheckBox
+                android:id="@+id/userCbPwd2"
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="20px"
+                android:button="@drawable/select_login_passwold_bg"
+                android:scaleType="centerCrop" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/userOk"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="70px"
+            android:layout_marginTop="40px"
+            android:background="@drawable/select_logout_button_bg"
+            android:text="@string/ok"
+            android:textColor="@color/cl_ffffffff"
+            android:textSize="30px" />
+    </LinearLayout>
+
+    <include android:id="@+id/in_register" layout="@layout/tool"/>
+
+</LinearLayout>

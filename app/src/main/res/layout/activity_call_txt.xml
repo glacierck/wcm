@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_bj"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/in_2"
+        layout="@layout/tool" />
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:background="@color/me_bj"
+        android:id="@+id/xRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="40px" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:background="@drawable/select_pay_button_bg"
+        android:gravity="center"
+        android:text="@string/save_and_use"
+        android:textColor="@color/cl_ffffffff"
+        />
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="30px"-->
+        <!--android:layout_marginTop="60px"-->
+        <!--android:text="@string/call_txt"-->
+        <!--android:textColor="@color/service_font"-->
+        <!--android:textSize="30px" />-->
+
+
+    <!--<EditText-->
+        <!--android:id="@+id/remarks"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="265px"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginLeft="30px"-->
+        <!--android:layout_marginRight="30px"-->
+        <!--android:layout_marginTop="20px"-->
+        <!--android:background="@drawable/select_post_new_bg"-->
+        <!--android:gravity="top"-->
+        <!--android:hint="@string/call_txt"-->
+        <!--android:maxLength="50"-->
+        <!--android:paddingLeft="15px"-->
+        <!--android:paddingTop="10px"-->
+        <!--android:textColor="@color/service_font"-->
+        <!--android:textColorHint="@color/cl_cbcbcb"-->
+        <!--android:textSize="26px" />-->
+
+    <!--<TextView-->
+        <!--android:lineSpacingExtra="3dp"-->
+        <!--android:layout_marginTop="20px"-->
+        <!--android:layout_marginLeft="30px"-->
+        <!--android:layout_marginRight="30px"-->
+        <!--android:textSize="24px"-->
+        <!--android:gravity="right"-->
+        <!--android:textColor="@color/me_7D7D7D"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/call_txt_tishi_2" />-->
+
+
+    <!--<TextView-->
+        <!--android:lineSpacingExtra="3dp"-->
+        <!--android:layout_marginTop="50px"-->
+        <!--android:layout_marginLeft="30px"-->
+        <!--android:layout_marginRight="30px"-->
+        <!--android:textSize="22px"-->
+        <!--android:textColor="@color/service_font"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/call_txt_tishi" />-->
+
+    <!--<Button-->
+        <!--style="?android:attr/borderlessButtonStyle"-->
+        <!--android:layout_margin="125px"-->
+        <!--android:textStyle="bold"-->
+        <!--android:id="@+id/login_enter"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70px"-->
+        <!--android:layout_marginTop="120px"-->
+        <!--android:gravity="center"-->
+        <!--android:background="@drawable/select_logout_button_bg"-->
+        <!--android:text="@string/call_bnt"-->
+        <!--android:textColor="@color/cl_ffffffff"-->
+        <!--android:textSize="30px"/>-->
+
+
+</LinearLayout>

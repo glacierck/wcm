@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/tool" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/me_bj"
+            android:gravity="center"
+            android:minHeight="100px"
+            android:paddingLeft="30px"
+            android:paddingRight="30px">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/determine_industry_hint"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/rippelColor"
+            android:minHeight="165px"
+            android:paddingLeft="30px"
+            android:paddingRight="30px">
+
+            <com.kongrongqi.shopmall.wedget.materialspinner.MaterialSpinner
+                android:id="@+id/determine_industry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/me_bj"
+            android:gravity="center"
+            android:minHeight="100px"
+            android:paddingLeft="30px"
+            android:paddingRight="30px">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/determine_area_hint"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/rippelColor"
+            android:minHeight="165px"
+            android:paddingLeft="30px"
+            android:paddingRight="26px">
+
+            <TextView
+                android:id="@+id/determine_area"
+                style="@style/TextStyle_Common"
+                android:inputType="text"
+                android:gravity="center_vertical"
+                android:hint="@string/address_hind" />
+
+            <!--<com.kongrongqi.shopmall.wedget.materialspinner.MaterialSpinner-->
+                <!--android:id="@+id/determine_area"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center" />-->
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/me_bj"
+            android:gravity="center"
+            android:minHeight="100px"
+            android:paddingLeft="30px"
+            android:paddingRight="30px">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/determine_sex_hint"
+                android:textColor="@color/service_font"
+                android:textSize="26px" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/rippelColor"
+            android:gravity="center"
+            android:minHeight="165px"
+            android:paddingLeft="30px"
+            android:paddingRight="30px">
+
+            <RadioGroup
+                android:id="@+id/rg_bnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/non"
+                    android:checked="true"
+                    android:drawablePadding="20px"
+                    android:button="@drawable/select_radio_button"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/select_radio_button"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="不限"
+                    android:textColor="@color/service_font"
+                    android:textSize="30px" />
+
+                <RadioButton
+                    android:id="@+id/man"
+                    android:drawablePadding="20px"
+                    android:button="@drawable/select_radio_button"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/select_radio_button"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="男"
+                    android:textColor="@color/service_font"
+                    android:textSize="30px" />
+
+                <RadioButton
+                    android:id="@+id/wo_man"
+                    android:drawablePadding="20px"
+                    android:button="@drawable/select_radio_button"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/select_radio_button"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="女"
+                    android:textColor="@color/service_font"
+                    android:textSize="30px" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/get_package"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/select_pay_button_bg"
+        android:gravity="center"
+        android:text="@string/get_package"
+        android:textColor="@color/cl_ffffffff" />
+
+</RelativeLayout>

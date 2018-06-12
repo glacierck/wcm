@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include android:id="@+id/in_agreenment" layout="@layout/tool"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/agreement_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/in_agreenment"-->
+        <!--android:layout_marginLeft="50dp"-->
+        <!--android:layout_marginRight="50dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/agreenment_title"/>-->
+
+    <!--<com.kongrongqi.shopmall.wedget.PScrollView-->
+        <!--android:id="@+id/scrollView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/agreement_title"-->
+        <!--android:layout_marginBottom="80px">-->
+
+        <!--<com.kongrongqi.shopmall.wedget.PTextView-->
+            <!--android:id="@+id/agreement_tv"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10px"-->
+            <!--android:layout_marginRight="10px"-->
+            <!--android:layout_marginTop="10px"/>-->
+
+    <!--</com.kongrongqi.shopmall.wedget.PScrollView>-->
+
+    <WebView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </WebView>
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/agreenment_agree"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:background="@drawable/select_pay_button_bg"
+        android:gravity="center"
+        android:text="@string/agree"
+        android:textColor="@color/cl_ffffffff"
+        />
+</LinearLayout>

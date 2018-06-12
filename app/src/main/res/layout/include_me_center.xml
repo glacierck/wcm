@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="200px"
+              android:background="@color/login_button_bj"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/me_account"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/me_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cl_ffffffff"
+            android:layout_marginLeft="60px"
+            android:textSize="25px"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/me_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="20px"
+            android:textColor="@color/cl_ffffffff"
+            android:textSize="25px"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/me_service"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginRight="60px"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/have_devices"
+                android:textColor="@color/cl_ffffffff"
+                android:textSize="25px"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/me_have_devices"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:text="0"
+                android:textColor="@color/cl_ffffffff"
+                android:textSize="25px"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:layout_marginRight="60px"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buyed_service"
+                android:textColor="@color/cl_ffffffff"
+                android:textSize="25px"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/me_buy_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:text="0"
+                android:textColor="@color/cl_ffffffff"
+                android:textSize="25px"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

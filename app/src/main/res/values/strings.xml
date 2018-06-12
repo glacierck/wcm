@@ -1,0 +1,494 @@
+<resources>
+    <string name="app_name">KONG1</string>
+    <string name="kongrongqi">空容器</string>
+    <string name="please_login">登录</string>
+    <string name="promptly_register">注册</string>
+    <string name="input_phone">请输入手机号</string>
+    <string name="input_name">请输入姓名(字母或汉字2~10位)</string>
+
+    <string name="name">请输入购买者真实姓名</string>
+
+    <string name="input_passwd">请输入6-20位数字或字母密码</string>
+    <string name="login">登&#160;&#160;&#160;&#160;录</string>
+    <string name="forget_passwd">忘记密码</string>
+    <string name="find_passwd">找回密码</string>
+    <string name="input_verify">请输入4位数字验证码</string>
+    <string name="send_msg">发送短信</string>
+    <string name="ok">确定</string>
+
+
+    <string name="again_confirm">重新审核</string>
+    <string name="add">重新添加</string>
+    <string name="execution">强制执行</string>
+    <string name="reason">原因</string>
+
+    <string name="recovery">恢复原号</string>
+
+    <string name="change">我要换号</string>
+
+    <string name="user_agreenment_title">《空容器DIS系统用户协议》</string>
+    <string name="agree">我已阅读并同意该协议</string>
+    <string name="input_confirm_passwd">请确认密码</string>
+    <string name="devices_hint">IMEI码在您的设备包装盒内可以看到,您可以通过手输IMEI码或者条形码扫描的方式填写IMEI码验证后方可使用空容器的相关服务</string>
+    <string name="input_imei">请填写IMEI码</string>
+    <string name="confirm_add">确认添加</string>
+    <string name="confirm">确认</string>
+    <string name="account">账号</string>
+    <string name="task">服务</string>
+    <string name="service">商店</string>
+    <string name="me">我的</string>
+    <string name="phone_verify">手机验证</string>
+    <string name="user_agreenment_title2">用户协议</string>
+    <string name="toast_msg_passwd_empty">密码不能为空或格式不正确</string>
+    <string name="toast_msg_phone">请输入手机号</string>
+    <string name="toast_msg_double_click">请勿连续点击</string>
+    <string name="toast_msg_phone_error">手机格式有误，请重新输入</string>
+    <string name="mobile_resend_authcode_msg">%1$s</string>
+    <string name="authcode_resend">重新发送</string>
+    <string name="authcode_error">验证码有误</string>
+    <string name="authcode_empty">验证码为空或格式不正确</string>
+    <string name="authcode">手机号与获取验证码手机号不一致</string>
+
+    <string name="nick_name_empty">姓名必须位2至10位汉字</string>
+    <string name="next">下一步</string>
+    <string name="setting_pwd">设置新密码</string>
+    <string name="account_setting">账号设置</string>
+    <string name="update_success">修改密码成功</string>
+    <string name="re_login">您已成功修改密码,马上重新登录</string>
+    <string name="total_fans">累计加友(人)</string>
+
+    <string name="today_fans">今日加友(人)</string>
+
+    <string name="total_grounp">累计入群(个)</string>
+    <string name="total_opration">账号托管(个)</string>
+    <string name="have_devices">已有设备&#160;:</string>
+    <string name="buy_service">购买服务</string>
+    <string name="buyed_service">已购服务&#160;:</string>
+    <string name="deal">交易记录</string>
+    <string name="change_device">替换设备</string>
+    <string name="help_and_service">常见问题</string>
+    <string name="push_msg">我的消息</string>
+    <string name="me_fans">KONG1发烧友</string>
+
+    <string name="me_about">关于我们</string>
+    <string name="me_update">关于KONG1</string>
+
+    <string name="logout">退出</string>
+    <string name="my_account">我的账户</string>
+    <string name="open_invoice">开票</string>
+    <string name="time">2017-5-19  17:59</string>
+    <string name="money">￥3000.00</string>
+    <string name="use">已使用</string>
+    <string name="use_1">使用</string>
+    <string name="ivoice_detail">发票详情</string>
+    <string name="company">发票抬头</string>
+    <string name="company_hind">请填写公司名称</string>
+    <string name="company_peple">纳税人识别号</string>
+    <string name="company_peple_hind">请填写纳税人识别号</string>
+
+    <string name="shoujianren_phone">收件人电话</string>
+    <string name="shoujianren_phone_hind">请输入收件人电话</string>
+
+    <string name="invoice_details">发票内容</string>
+    <string name="invoice_details_hind">发票内容</string>
+    <string name="service_money">服务费</string>
+    <string name="invoice_money">发票金额</string>
+    <string name="msg_info">发票信息</string>
+    <string name="addressee">收件信息</string>
+    <string name="zhuce_addressee">注册地址</string>
+    <string name="zhuce_addressee_hind">请填写注册地址</string>
+
+    <string name="zhuce_phone">公司电话</string>
+    <string name="zhuce_phone_hind">请填写公司电话</string>
+
+    <string name="kaihuhang">开户银行</string>
+    <string name="kaihuhang_hind">请填写开户银行</string>
+    <string name="post_email">电子邮件</string>
+    <string name="post_email_hind">填写电子邮件用于发送发票</string>
+
+    <string name="beizhu">备注说明</string>
+    <string name="beizhu_hind">请填写备注说明</string>
+
+    <string name="kaipiao_shuoming">开票说明</string>
+
+    <string name="kaipiao_shuoming_12000">开票金额满1000元包邮</string>
+    <string name="zhanghao">银行账号</string>
+    <string name="zhanghao_hind">请填写银行账号</string>
+    <string name="addressee_man">收&#160;件&#160;人</string>
+    <string name="addressee_phone">收件电话</string>
+    <string name="address">所在地区</string>
+    <string name="address_hind">请选择所在地区</string>
+
+    <string name="address_detail">详细地址</string>
+    <string name="address_detail_hind">请填写详细地址</string>
+
+    <string name="address_hint">请填写详细地址</string>
+    <string name="service_type">灌粉服务</string>
+    <string name="not_invoice">未开票</string>
+    <string name="hava_invoice">已开票</string>
+    <string name="all">全选</string>
+    <string name="heji">合计：</string>
+    <string name="all_total">¥0.00</string>
+    <string name="submit">提交</string>
+    <string name="data_parse_error">地址解析错误</string>
+    <string name="change_device_hint">请输入故障设备的IMEI码</string>
+
+    <string name="change_device_hint_new">请输入新设备的IMEI码</string>
+
+    <string name="service_info">服务内容:&#160;&#160;提供灌粉服务</string>
+    <string name="service_cycle">服务周期:&#160;&#160;90天</string>
+    <string name="detail_time">有效期限:&#160;&#160;90天</string>
+    <string name="test_1">¥100.00</string>
+    <string name="buy">购买</string>
+    <string name="buy_now">立即购买</string>
+    <string name="ok_buy">确认购买</string>
+    <string name="buy_service_dialo">您即将购买灌粉服务，是否确定?</string>
+    <string name="cancel">取消</string>
+    <string name="you_buy_service">您购买的服务</string>
+    <string name="test_2">¥1000</string>
+    <string name="choose_service">选择服务方式</string>
+    <string name="alipay">支付宝</string>
+    <string name="wechat">微信</string>
+    <string name="total">合计：</string>
+    <string name="ok_pay">确认支付</string>
+    <string name="product_title">灌粉服务&#160;(产品描述)</string>
+    <string name="receive_address">选择收件地址</string>
+    <string name="add_new_address">添加新地址</string>
+    <string name="text_5">湖南省益阳市赫山区化工南路6号 日月山水西区20栋1001号</string>
+    <string name="choose_address">选择收货地址</string>
+    <string name="edit_man">收件人</string>
+    <string name="addressee_phone_hint">13545213172</string>
+    <string name="edit_man_hint">请输入收件人姓名</string>
+    <string name="defaout_address">默认地址</string>
+    <string name="save">保存</string>
+
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="edit_address_title">编辑收件地址</string>
+    <string name="info_edit">信息不完整，请填写完整</string>
+    <string name="cancel_edit_address">确定放弃此次编辑?</string>
+    <string name="not_use">未使用</string>
+    <string name="working">服务中</string>
+    <string name="stop">已暂停</string>
+    <string name="finish">完成中</string>
+    <string name="weight">10份</string>
+    <string name="working_devices">设备：1号机</string>
+    <string name="account_nickname">账号：霸王皮皮虾</string>
+    <string name="account_error">账号异常，服务暂停</string>
+    <string name="choose_service_type">请选择您可使用的服务账号</string>
+    <string name="no_account"><u>无账号选择赶快去购买号槽和添加账号吧？</u></string>
+    <string name="use_id">ID:&#160;</string>
+    <string name="use_id_num">28107057</string>
+    <string name="get_authcode_failure">短信发送频率过快，请稍后再发</string>
+    <string name="code_not_sync">验证码输入错误</string>
+    <string name="passwd_not_sync">您输入的密码不一致</string>
+
+    <string name="add_devices">绑定设备</string>
+    <string name="wait">请稍等</string>
+    <string name="service_num">视数量而定</string>
+    <string name="service_grounp_num">视群价值而定</string>
+    <string name="service_c">视数据类型而定</string>
+    <string name="online_pay">在线支付</string>
+    <string name="search">搜索</string>
+    <string name="choose_account_list">可选择账号列表</string>
+    <string name="fansB">自助加友</string>
+    <string name="fansC">定制加友</string>
+
+    <string name="fansA">邀友</string>
+    <string name="wait_for_grounp">待入群列表</string>
+    <string name="in_grounp">入群</string>
+    <string name="text_6">设计一群</string>
+
+
+    <string name="no_add">尚未添加</string>
+    <string name="service_free">空闲中</string>
+    <string name="progress">进&#160;&#160;度：</string>
+    <string name="progress_status">状&#160;&#160;态：</string>
+    <string name="service_count">服&#160;&#160;务：</string>
+    <string name="user_service">使用服务</string>
+    <string name="weixin_no">微信账户</string>
+
+    <string name="bind_no1">绑定1号机</string>
+    <string name="look_datit">账号详情</string>
+
+    <string name="next_step">下一步</string>
+
+    <string name="look_list">查看列表</string>
+    <string name="buy_service2">购买服务</string>
+
+    <string name="please_enter_weixin_no">请输入微信号</string>
+    <string name="please_enter_weixin_passworld">请输入微信密码</string>
+    <string name="emptyview">暂无数据</string>
+    <string name="becareful">注意：</string>
+    <string name="becareful_0">1、请于KONG1设备登录您要添加的微信号（按音量下键后打开微信登录验证，再按音量下键运行系统）</string>
+    <string name="becareful_1">2、请添加实名认证且绑定该认证人银行卡的微信号</string>
+    <string name="becareful_2">3、该账号必须有至少3个微信好友</string>
+    <string name="becareful_3">4、好友的微信号必须是实名认证且绑定认证人银行卡的微信号</string>
+    <string name="becareful_4">空容器承诺，对您的账号及密码必将保密</string>
+    <string name="becareful_5">5、如存在多个微信账号，请确保间隔3小时以上依次添加，以免封号</string>
+
+    <string name="congratulations">恭喜,您的账号已经成功提交</string>
+    <string name="in_audit">目前状态：审核中</string>
+    <string name="in_audit_1">\t\t系统已为您安排审核任务，当前任务完成后将为您执行，请耐心等待。</string>
+    <string name="in_audit_2">\t\t通过系统审核后，即可为该账号选择服务，您可以在设备账号列表中查看审核情况。</string>
+
+    <string name="in_audit_change">请于详情页点击‘未审核’按钮对所换账号进行审核</string>
+
+    <string name="use_add_service">使用</string>
+
+    <string name="guanfan_service">灌粉服务</string>
+    <string name="guanfan_service_content">服务内容：提供灌粉服务</string>
+    <string name="daiguan_time">代管时长：90天</string>
+    <string name="yuan_200">200元</string>
+
+    <string name="device_name">1号设备</string>
+
+    <string name="fan_10">10份</string>
+
+    <string name="please_enter_IMEI">请填写您的设备IMEI码</string>
+    <string name="please_enter_IMEI_1">IMEI码在您的设备包装盒内可以查看到，您可以通过手动输入IMEI码方式或者扫描条形码的方式填写IMEI码，验证后方可使用空容器相关服务</string>
+    <string name="please_enter_IMEI_2">设备替换后需要将旧设备上绑定的微信号在新设备上登录一次</string>
+    <string name="please_enter_IMEI_3">IMEI码在您的设备包装盒内可以查看到，通过验证后方可使用空容器相关服务</string>
+
+    <string name="please_enter_IMEI_4">如存在多个微信账号，请确保间隔3小时以上依 次添加，以免封号</string>
+
+    <string name="me_please_imei_1">1、请确保原伺服设备使用的微信号已在新设备登录</string>
+    <string name="me_please_imei_2">2、如存在多个微信账号，请确保间隔3小时以上依 次添加，以免封号</string>
+
+    <string name="guanfan_zongliang">好友总量（人）</string>
+    <string name="today_add">今日新增（人）</string>
+
+    <string name="request_replace">确定替换</string>
+    <string name="guanfan_ready">加友服务</string>
+    <string name="guanfan_zongliang0">加友总量：0</string>
+    <string name="dangri_add0">当日新增：0</string>
+    <string name="vip_guanfan">VIP灌粉服务</string>
+    <string name="vip_time">2017.2.20  13:56</string>
+    <string name="service_tiaojian">服务条件</string>
+    <string name="service_tiaojian_1">如果您无法简洁的表达您的想法，那只能说明您还不够了解它。</string>
+    <string name="account_no_user_buy_service"><u>当设备账号已满，请点我购买新服务</u></string>
+
+    <string name="account_no_user_buy_service2"><u>当设备的账号已满，请点击我购买新服务套餐</u></string>
+
+    <string name="no_user_buy_service"><u>服务不够，快来购买吧！</u></string>
+    <string name="buy_more_service"><u>您还可以添加更多服务</u></string>
+
+    <string name="current_no_choose_acccount">请选择服务的账号</string>
+    <string name="fans_total">灌粉总量: 200</string>
+    <string name="fans_data">有效数据占比:200/1000</string>
+    <string name="serach_is_null">关键字不能为空</string>
+    <string name="grounp_name">设计一群</string>
+    <string name="grounp_person">群内人数：500人</string>
+    <string name="upload_file">1、请通过电脑登录以下网址：</string>
+    <string name="url">http://192.168.1.131:8080/dis-shop-api/uploadExcel/uploadForm</string>
+    <string name="upload">我已上传</string>
+    <string name="upload_title">数据导入及上传</string>
+    <string name="pay_is_null">请选择支付方式</string>
+
+    <string name="guanfanB"><u>此类服务请至服务模块进行购买</u></string>
+    <string name="guanfanB_user"><u>此类服务请至进程模块进行使用</u></string>
+
+    <string name="about">\t\t\t\t武汉原研三品电子商务有限公司成立于2012年4月6日，空容器kongrongqi是原研三品主导产品及品牌名称。空容器首创DIS系统和社群共享平台系统双研发。DIS系统基于大数据能力提供移动精准营销服务，社群共享平台系统致力于提供全面的用户共享服务。\n \t\t\t\t空容器专注于移动社群的创新应用研发，是移动社群共享生态领域的创新型科技企业。</string>
+
+    <string name="about_time">copyright@2017</string>
+    <string name="about_conpony">武汉原研三品电子商务有限公司</string>
+
+
+    <string name="agreenment1">1、用户注册需提供真实准确的客户姓名和手机号码</string>
+    <string name="agreenment2">2、绑定至号槽的微信号即授权我方能使用账号添加好友、关注他人、发布名片等</string>
+    <string name="agreenment3">3、账号在服务过程中，会产生封号风险，若产生封号与我方无关，客户自行解封</string>
+    <string name="agreenment4">4、账号执行服务期间，请勿使用微信账号且不要修改账号的相关信息包含密码、昵称</string>
+    <string name="agreenment5">5、若出现账号异常或是设备异常的情况，请查看个人中心的服务与帮助进行初步解决，若依然无法解决致电客服热线400-555-6532</string>
+    <string name="agreenment_title">《空容器DIS系统用户须知》</string>
+    <string name="success">支付成功</string>
+    <string name="pay_cancel">您已取消支付</string>
+    <string name="pay_error">支付失败</string>
+
+    <string name="xuding_service">续订服务</string>
+    <string name="receive_address_1">收件地址</string>
+    <string name="search_group">请输入意向群的关键词</string>
+    <string name="permission_title_permission_failed">权限申请失败</string>
+    <string name="permission_message_permission_failed">我们需要的一些权限被您拒绝或者系统发生错误申请失败，请您到设置页面手动授权，否则功能无法正常使用！</string>
+    <string name="permission_setting">去设置</string>
+    <string name="permission_cancel">取消</string>
+
+    <string name="permission_resume">继续</string>
+    <string name="permission_title_permission_rationale">权限已被拒绝</string>
+    <string name="permission_message_permission_rationale">您已经拒绝过我们申请授权，请您同意授权，否则功能无法正常使用！</string>
+    <string name="login_error">登录失败，请重新登陆一次</string>
+    <string name="update">立即更新</string>
+    <string name="wait_update">稍后更新</string>
+    <string name="apk_downloading">正在下载</string>
+    <string name="install_error">安装失败</string>
+    <string name="token_expired">登录已过期，请重新登录</string>
+    <string name="finish_1">已完成</string>
+    <string name="token_error">登录过期</string>
+    <string name="get_authcode_failure_1">验证码获取失败，请重新发送</string>
+    <string name="not_upload_data">您未上传需要交友的数据</string>
+
+    <string name="add_account_set1">确认账号</string>
+    <string name="add_account_set2">添加账号</string>
+    <string name="add_account_set3">等待审核</string>
+
+    <string name="shebei_yichang">设备异常请尽快与客服联系\n客服热线：027-59303512</string>
+
+    <string name="add_post_dianzi">电子发票</string>
+
+    <string name="add_post_zhizhi">纸质发票</string>
+
+    <string name="add_post_type">请选择开票类型</string>
+
+    <string name="company_info">公司信息</string>
+
+    <string name="company_info_2">（按国家要求自2017年7月1日起开具发票需填写公司详细信息）</string>
+
+    <string name="call_txt_title">设置招呼语</string>
+    <string name="call_txt">请自定义招呼语</string>
+
+    <string name="call_txt_tishi">提示：该打招呼语用于微信加友打招呼，将直接影响加友转换率，请谨慎设置</string>
+
+    <string name="call_txt_tishi_2">字数在50个汉字内</string>
+
+    <string name="call_bnt">保存并应用</string>
+
+    <string name="account_zhuyi">明日早上五点后，该账号将自动登录伺服设备继续服务，请于5点前完成相应操作，以免影响您的使用。</string>
+    <string name="invoce_expalain">开票说明</string>
+    <string name="explain_1">1、每次申请发票单笔满1000元包</string>
+    <string name="explain_1_1">&#160;&#160;&#160;&#160;&#160;&#160;邮，暂不支持港澳台地区包邮</string>
+    <string name="explain_2">2、您申请的发票我们会最晚在5个</string>
+    <string name="explain_2_2">&#160;&#160;&#160;&#160;&#160;&#160;工作日内寄出</string>
+    <string name="explain_3">3、发票申请提交后无法修改，如信</string>
+    <string name="explain_3_3">&#160;&#160;&#160;&#160;&#160;&#160;息有误请联系客服人员</string>
+    <string name="email_error">邮箱格式不正确</string>
+
+    <string name="failuresuccess">如您的账号未实名或未绑定银行卡，强制执行可能导致账号被封，是否继续？</string>
+    <string name="account_empty_hint">还没有添加设备？快去添加吧~</string>
+    <string name="add_account_hint">添加设备</string>
+    <string name="nike_name">您好&#160;，&#160;</string>
+
+
+    <string name="empty_no_user_service">还没有未使用的服务，再去买一波~</string>
+
+    <string name="empty_msg_hint">放心啦，有消息我们会通知你哒~</string>
+
+    <string name="empty_receiver_address_hint">还没有您的地址信息，赶紧添加一个吧~</string>
+
+    <string name="empty_account_list_hint">众里寻TA千百度，原来是还没添加账号啊~</string>
+
+    <string name="empty_not_use_hint">居然没有点存货！赶快去进货吧~</string>
+
+
+    <string name="empty_finish_hint">还没有已完成的服务噢~</string>
+
+    <string name="empty_working_hint">什么都没有，赶快去使用服务吧~</string>
+
+    <string name="empty_stop_hint">还没有已暂停的服务噢~</string>
+
+    <string name="empty_buy_record_hint">无聊到长蘑菇啦，快去服务逛一逛吧~</string>
+
+    <string name="empty_use_weixin_hint">居然没有可用账号，好难过啊~</string>
+
+    <string name="empty_join_grounp_hint">挖了好久，没有找到你要的内容哦~</string>
+    <string name="wait_hope">敬请期待</string>
+    <string name="one_year">360天</string>
+    <string name="sale_size">66折</string>
+    <string name="not_choose_commodity">请选择你需要购买的服务</string>
+    <string name="hint">注意</string>
+    <string name="system_add_friend">系统加友</string>
+    <string name="trusteeship_account">账号托管</string>
+    <string name="combo_shop">套餐类型</string>
+    <string name="valid_time">有效期限</string>
+    <string name="user_account">可使用账号</string>
+
+
+
+    <string name="select_oprator">您的账号尚未使用服务，当前可自行使用账号，或选择一下操作：</string>
+
+
+    <string name="failure_time">失效时间：</string>
+
+    <string name="servie">服务：</string>
+
+    <string name="tv_add_friend">好友总量：</string>
+
+    <string name="tv_today_add">当日新增：</string>
+
+    <string name="restart_service">（如存在其它加友服务，执行此操作则其他加友服务将被暂停）</string>
+
+
+    <!--详情-服务中-我要换号-->
+
+    <string name="change01">1、如有服务进行，换号后新账号将会继续执行；</string>
+    <string name="change02">2、换号后“好友总量”将统计新号总量，“当日新增”将会重置；</string>
+    <string name="change03">3、换号期间，服务期将照常计算。</string>
+    <string name="change04">4、换号后，您可在详情页点击‘未审核’按钮对所换账号进行审核。</string>
+
+    <string name="change1">1、您当日的任务还在进行中，如需换号，则当日剩余任务将取消，你也可以等待服务结束后进行换号；</string>
+    <string name="change2">2、换号需要对新号进行审核，审核通过后，原有账号服务将于第二天转移至新号继续执行；</string>
+    <string name="change3">3、换号成功后将停止计数，次日“加友总量”恢复累计，“当日新增”则统计新号加友量。</string>
+
+    <!--详情-空闲中-我要换号-->
+    <string name="change11">1、换号需对新号进行审核，审核通过后，原有账号服务将于第二天转移至新号继续执行；</string>
+    <string name="change22">2、换号成功后将停止计数，次日“加友总量”恢复累计，“当日新增”则统计新号加友量。</string>
+
+
+    <!--详情-服务中-我要使用-->
+    <string name="use1">1、您当日的任务还在进行中，如使用该账号，则当日剩余任务将取消，你也可以等待服务结束后使用账号；</string>
+    <string name="use2">2、明早0点后，该账号将自动登录伺服设备继续服务，请于此前完成使用；</string>
+    <string name="use3">3、如遇系统数据校验，可能会登录您的微信，请勿抢登；</string>
+    <string name="use4">4、使用期间，请勿变更账号密码，以免造成服务异常。</string>
+
+    <!--详情-空闲中-我要使用-->
+    <string name="use11">1、明早0点后，该账号将自动登录伺服设备继续服务，请于此前完成使用；</string>
+    <string name="use22">2、如遇系统数据校验，可能会登录您的微信，请勿抢登； </string>
+    <string name="use33">3、使用期间，请勿变更账号密码，以免造成服务异常。</string>
+
+    <string name="alphabet_and_number">0123456789-+_</string>
+
+    <string name="look_user_agreement"><u>查空容器用户协议</u></string>
+
+    <string name="wei_shenhe">未审核</string>
+    <string name="shenhezhong">审核中</string>
+    <string name="shenhe_pass">已通过</string>
+    <string name="shenhe_weitongguo">未通过</string>
+
+    <string name="shenhe_seccess">审核成功</string>
+    <string name="shenhe_fail">审核失败</string>
+    <string name="change_account">换号</string>
+
+
+    <string name="call_text_head_hint">系统提取数据关键词+自定义编辑招呼语</string>
+
+    <string name="call_text_custom_hint">自定义编辑招呼语</string>
+    <string name="save_and_use">保存并应用</string>
+
+    <string name="click_buy">点击购买</string>
+    <string name="service_set">服务设置</string>
+    <string name="create_service">生成服务</string>
+
+    <string name="total_data">数据总量：</string>
+
+    <string name="naming_service_hint">请为您生成的服务命名</string>
+
+    <string name="naming_service_notice">注意：默认为自助加友，建议根据数据命名，不超过8个字</string>
+
+    <string name="service_number">请划分服务份数</string>
+
+    <string name="determine_industry_hint">确定行业</string>
+
+    <string name="determine_area_hint">确定区域</string>
+
+    <string name="determine_sex_hint">确定性别</string>
+
+    <string name="get_package">获取定向包</string>
+
+    <string name="sure_number">确定份数</string>
+
+    <string name="sure_number_day">确定每份天数</string>
+
+    <string name="create_package">生成服务</string>
+    <!--转义符
+    &#160; 空格
+    -->
+</resources>
+

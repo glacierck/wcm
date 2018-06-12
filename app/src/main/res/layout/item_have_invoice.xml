@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cl_ffffffff">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/me_bj_list"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_marginTop="2px"
+        android:background="@color/cl_ffffffff">
+
+        <LinearLayout
+            android:id="@+id/deal_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50px"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_invoces_service_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/service_type"
+                android:textColor="@color/service_font"
+                android:textSize="30px" />
+
+            <TextView
+                android:id="@+id/item_invoces_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:text="@string/time"
+                android:textColor="@color/me_7D7D7D"
+                android:textSize="22px" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_invoces_money"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="30px"
+            android:gravity="center_vertical"
+            android:text="@string/money"
+            android:textColor="@color/progress_error"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</RelativeLayout>

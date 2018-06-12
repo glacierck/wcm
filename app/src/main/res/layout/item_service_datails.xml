@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cl_ffffffff"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/me_bj_list"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cl_ffffffff"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="50px"
+        android:paddingTop="50px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/service_name"
+                    style="@style/ServiceDatailsText"
+                    android:layout_width="wrap_content"
+                    android:text="@string/guanfan_ready"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/service_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20px"
+                    android:gravity="center"
+                    android:text="(服务中)"
+                    android:textColor="@color/logout_bt_bj"
+                    android:textSize="22px" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2">
+                <!--<com.kongrongqi.shopmall.wedget.progressBar.TextRoundCornerProgressBar-->
+                <!--android:id="@+id/progress"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="35px"-->
+                <!--android:layout_weight="2"-->
+                <!--android:textStyle="bold"-->
+                <!--app:rcBackgroundColor="@color/cl_4dbfbfbf"-->
+                <!--app:rcBackgroundPadding="1px"-->
+                <!--app:rcMax="15"-->
+                <!--app:rcProgress="5"-->
+                <!--app:rcProgressColor="@color/progress_default"-->
+                <!--app:rcReverse="false"-->
+                <!--app:rcTextProgressColor="@color/me_7D7D7D"-->
+                <!--app:rcTextProgressSize="30px"-->
+                <!--app:rcRadius="10dp"/>-->
+
+                <include layout="@layout/text_progress_layout" />
+
+
+                <!--<ProgressBar-->
+                <!--android:id="@+id/progress"-->
+                <!--style="@android:style/Widget.Holo.ProgressBar.Horizontal"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:progress="10"-->
+                <!--android:max="30"-->
+                <!--android:progressDrawable="@drawable/layer_shape2"/>-->
+
+
+                <!--<com.frame.commonframe.progressbar.FlikerProgressBar-->
+                <!--android:id="@+id/progress"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="35px"-->
+                <!--app:textSize="30px"-->
+                <!--app:radius="10dp"-->
+                <!--app:borderBackColor="@color/me_font"-->
+                <!--app:progressColor="@color/progress_default"-->
+                <!--app:borderWidth="1px"-->
+                <!--app:progressTextColor="@color/service_font"/>-->
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="20px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_failure_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/failure_time"
+                        android:textColor="@color/service_font"
+                        android:textSize="28px" />
+
+                    <TextView
+                        android:id="@+id/failure_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/time"
+                        android:textColor="@color/service_font"
+                        android:textSize="28px" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_service"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/servie"
+                        android:textColor="@color/service_font"
+                        android:textSize="28px"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/service"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/time"
+                        android:textColor="@color/service_font"
+                        android:textSize="28px" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/right_today"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_add_friend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_add_friend"
+                        android:textColor="@color/me_7D7D7D"
+                        android:textSize="28px" />
+
+                    <TextView
+                        android:id="@+id/add_friend_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="200"
+                        android:textColor="@color/me_7D7D7D"
+                        android:textSize="30px" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_today_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_today_add"
+                        android:textColor="@color/me_7D7D7D"
+                        android:textSize="28px" />
+
+                    <TextView
+                        android:id="@+id/today_add_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20"
+                        android:textColor="@color/me_7D7D7D"
+                        android:textSize="30px" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/right_restart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <Button
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/bt_right_restart"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="160px"
+                    android:layout_height="60px"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/select_logout_button_bg"
+                    android:text="重启"
+                    android:textColor="@color/cl_ffffffff"
+                    android:textSize="26px" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

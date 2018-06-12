@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_bj"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool" />
+
+    <com.frame.commonframe.viewtype.ProgressActivity
+        android:id="@+id/progress_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.jcodecraeer.xrecyclerview.XRecyclerView
+                android:id="@+id/xrecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="40px"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:background="@color/cl_ffffffff"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_all_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <com.kongrongqi.shopmall.wedget.SmoothCheckBox
+                        android:id="@+id/invoice_all_checkbox"
+                        android:layout_width="50px"
+                        android:layout_height="50px"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30px"
+                        app:color_checked="@color/login_button_bj"
+                        app:color_unchecked="@color/cl_ffffffff"
+                        app:stroke_width="1px" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/quanxuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20px"
+                    android:layout_toRightOf="@id/ll_all_checkbox"
+                    android:gravity="center"
+                    android:text="@string/all"
+                    android:textColor="@color/service_font"
+                    android:textSize="30px" />
+
+                <TextView
+                    android:id="@+id/heji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20px"
+                    android:layout_toRightOf="@id/quanxuan"
+                    android:gravity="center"
+                    android:text="@string/heji"
+                    android:textColor="@color/service_font"
+                    android:textSize="30px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/invoice_choose_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/heji"
+                    android:gravity="center"
+                    android:text="@string/all_total"
+                    android:textColor="@color/progress_error"
+                    android:textSize="30px"
+                    android:textStyle="bold" />
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:id="@+id/invoice_next"
+                    android:layout_width="240px"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/select_pay_button_bg"
+                    android:gravity="center"
+                    android:text="@string/next"
+                    android:textColor="@color/cl_ffffffff"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.frame.commonframe.viewtype.ProgressActivity>
+</LinearLayout>

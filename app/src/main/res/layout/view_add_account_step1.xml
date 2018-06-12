@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/me_bj"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59px"
+        android:text="@string/becareful"
+        android:textColor="@color/me_7D7D7D"
+        android:textSize="22px" />
+
+    <TextView
+        android:lineSpacingExtra="10px"
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:text="@string/becareful_0"
+        android:textColor="@color/logout_bt_bj"
+        android:textSize="22px" />
+
+    <TextView
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px"
+        android:lineSpacingExtra="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:text="@string/becareful_1"
+        android:textColor="@color/me_7D7D7D"
+        android:textSize="22px" />
+
+    <TextView
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px"
+        android:lineSpacingExtra="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:text="@string/becareful_2"
+        android:textColor="@color/me_7D7D7D"
+        android:textSize="22px" />
+
+    <TextView
+        android:lineSpacingExtra="10px"
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:text="@string/becareful_3"
+        android:textColor="@color/me_7D7D7D"
+        android:textSize="22px" />
+
+    <TextView
+        android:lineSpacingExtra="10px"
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:text="@string/becareful_5"
+        android:textColor="@color/logout_bt_bj"
+        android:textSize="22px" />
+
+</LinearLayout>

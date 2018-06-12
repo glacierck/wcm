@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cl_ffffffff"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/me_bj_list"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:background="@color/cl_ffffffff">
+
+        <com.kongrongqi.shopmall.wedget.SmoothCheckBox
+            android:id="@+id/smoothCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30px"
+            app:color_checked="@color/login_button_bj"
+            app:color_unchecked="@color/cl_ffffffff"
+            app:stroke_width="1px" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="30px">
+
+            <TextView
+                android:id="@+id/use_id"
+                android:layout_width="100px"
+                android:layout_height="wrap_content"
+                android:text="@string/use_id"
+                android:textColor="@color/service_font"
+                android:textSize="30px" />
+
+            <TextView
+                android:id="@+id/use_id_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/use_id_num"
+                android:textColor="@color/service_font"
+                android:textSize="30px" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/wechatNo_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30px"
+            android:gravity="center_vertical"
+            android:text="使用则暂停同类服务"
+            android:textColor="@color/logout_bt_bj"
+            android:textSize="30px" />
+        <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1px"-->
+        <!--android:background="@color/login_input_line"/>-->
+    </LinearLayout>
+</LinearLayout>

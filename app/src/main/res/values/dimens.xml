@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--刷新框架-->
+    <dimen name="load_more_footer_height_classic">30dp</dimen>
+    <dimen name="load_more_footer_height_google">72dp</dimen>
+    <dimen name="load_more_final_offset_google">120dp</dimen>
+    <dimen name="refresh_drawable_size_google">40dp</dimen>
+    <dimen name="load_more_trigger_offset_google">88dp</dimen>
+    <dimen name="load_more_drawable_size_google">36dp</dimen>
+    <dimen name="refresh_header_height_google">100dp</dimen>
+    <dimen name="refresh_final_offset_google">150dp</dimen>
+    <dimen name="refresh_trigger_offset_google">100dp</dimen>
+    <dimen name="refresh_header_height_twitter">80dp</dimen>
+    <dimen name="refresh_header_height_yalantis">136dp</dimen>
+
+    <!--Spinner-->
+    <dimen name="ms__padding_left">24px</dimen>
+    <dimen name="ms__padding_top">12px</dimen>
+    <dimen name="ms__item_height">70px</dimen>
+    <dimen name="ms__popup_padding_left">24px</dimen>
+    <dimen name="ms__popup_padding_top">12px</dimen>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/in_register"
+        layout="@layout/tool" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/in_register"
+        android:orientation="vertical"
+        android:layout_marginLeft="90px"
+        android:layout_marginRight="90px"
+        android:paddingTop="100px">
+
+
+        <EditText
+            android:id="@+id/register_phone"
+            style="@style/EditTextStyle_Common"
+            android:hint="@string/input_phone"
+            android:maxLength="11"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="39px"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/register_verify_code"
+                style="@style/EditTextStyle_Common"
+                android:layout_width="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:hint="@string/input_verify"
+                android:inputType="number"
+                android:maxLength="4"/>
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/register_sendmsg"
+                android:layout_width="150px"
+                android:layout_height="70px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/select_logout_button_bg"
+                android:text="@string/send_msg"
+                android:textColor="@color/cl_ffffffff"
+                android:textSize="26px" />
+
+        </LinearLayout>
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/regitser_ok"
+            android:layout_width="match_parent"
+            android:layout_height="70px"
+            android:layout_marginTop="40px"
+            android:background="@drawable/select_logout_button_bg"
+            android:textColor="@color/cl_ffffffff"
+            android:textSize="30px"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

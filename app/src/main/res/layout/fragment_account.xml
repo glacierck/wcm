@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool" />
+
+    <com.frame.commonframe.viewtype.ProgressActivity
+        android:id="@+id/progress_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cl_ffffffff">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tl_tab"
+                    android:layout_width="0dp"
+                    android:layout_height="80px"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:id="@+id/more_equipment"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/account_list"
+                        android:layout_width="32px"
+                        android:layout_height="32px"
+                        android:src="@drawable/shebei_list"
+                        android:visibility="visible" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </com.frame.commonframe.viewtype.ProgressActivity>
+</LinearLayout>

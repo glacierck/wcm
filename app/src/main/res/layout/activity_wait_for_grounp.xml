@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_bj">
+
+    <include
+        android:id="@+id/in_10"
+        layout="@layout/tool" />
+
+
+    <com.frame.commonframe.viewtype.ProgressActivity
+        android:id="@+id/progress_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/in_10">
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/wait_for_RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30px" />
+    </com.frame.commonframe.viewtype.ProgressActivity>
+</RelativeLayout>

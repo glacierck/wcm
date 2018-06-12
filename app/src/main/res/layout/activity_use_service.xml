@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_bj">
+
+    <include
+        android:id="@+id/in_8"
+        layout="@layout/tool" />
+
+
+    <com.frame.commonframe.viewtype.ProgressActivity
+        android:id="@+id/progress_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/in_8">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="@color/rippelColor"
+                android:id="@+id/use_hint"
+                android:layout_width="match_parent"
+                android:layout_height="83px"
+                android:gravity="center_vertical"
+                android:paddingLeft="30px"
+                android:text="@string/choose_service_type"
+                android:textColor="@color/me_7D7D7D"
+                android:textSize="26px" />
+
+
+            <com.jcodecraeer.xrecyclerview.XRecyclerView
+                android:layout_marginTop="40px"
+                android:layout_below="@id/use_hint"
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/me_bj"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/use_buy_service"
+                    android:layout_width="match_parent"
+                    android:layout_height="70px"
+                    android:layout_marginBottom="15px"
+                    android:gravity="center"
+                    android:paddingLeft="10px"
+                    android:text="@string/no_account"
+                    android:textColor="@color/logout_bt_bj"
+                    android:visibility="gone" />
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:id="@+id/use_service"
+                    android:layout_width="match_parent"
+                    android:layout_height="70px"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/select_pay_button_bg"
+                    android:text="@string/ok"
+                    android:textColor="@color/cl_ffffffff"
+                    android:textSize="30px" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.frame.commonframe.viewtype.ProgressActivity>
+</RelativeLayout>
